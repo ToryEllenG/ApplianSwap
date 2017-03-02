@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:text="This application was developed by James Madison University ISAT Students for their Senior Capstone Project."
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:text="The purpose of this application is to provide a medium which allows the everyday homeowner to be presented with energy efficient alternatives to their current household appliances."
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:layout_weight="0.02" />
+
+
+    <ImageButton
+        android:layout_width="360dip"
+        android:layout_height="200dip"
+        android:src="@mipmap/duke_dog"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

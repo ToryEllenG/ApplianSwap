@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamboa.troy.HomeEnergyAudit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.gamboa.troy.WattsOn.AboutActivity" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.MainActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.StatisticsActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.RegisterActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.AboutActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseDataActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.LoginActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseRegisterActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ShowUserData"></activity>
+    </application>
+
+</manifest>

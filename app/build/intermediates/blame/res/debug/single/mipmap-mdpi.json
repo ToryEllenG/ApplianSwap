@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/facebook.png",
+        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-mdpi/facebook.png"
+    },
+    {
+        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/duke_dog.png",
+        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-mdpi/duke_dog.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/duke_dog.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-mdpi/duke_dog.png"
+    },
+    {
+        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/twitter.png",
+        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-mdpi/twitter.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/instagram.png",
+        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-mdpi/instagram.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/twitter.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-mdpi/twitter.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/instagram.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-mdpi/instagram.png"
+    },
+    {
+        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-mdpi/facebook.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-mdpi/facebook.png"
+    }
+]

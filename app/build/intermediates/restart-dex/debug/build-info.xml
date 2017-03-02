@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="8689926572903"
+    token="3948541526502951535"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="2167" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="891" />
+    <task
+        name="verifier"
+        duration="42" />
+
+    <artifact
+        location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="8689926572903"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
