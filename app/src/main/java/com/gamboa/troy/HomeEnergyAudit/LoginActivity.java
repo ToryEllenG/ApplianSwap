@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
@@ -37,8 +40,11 @@ public class LoginActivity extends AppCompatActivity{
         getSupportActionBar().setTitle(getString(R.string.please_login));
         loginToolbar.setTitleTextColor(Color.WHITE);
 
+        //editTexts
          etUsername = (EditText) findViewById(R.id.ETusername);
          etPassword = (EditText) findViewById(R.id.ETpassword);
+
+        //Buttons
          btnLogin = (Button) findViewById(R.id.BTsubmit);
          btnRegister = (Button) findViewById(R.id.BTregister);
          btnAbout = (Button) findViewById(R.id.btAbout);
@@ -79,6 +85,8 @@ public class LoginActivity extends AppCompatActivity{
                                 String username = jsonResponse.getString("username");
                                 Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
                                 loginIntent.putExtra("username", username);
+                                Toast loginSuccess = Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT);
+                                loginSuccess.show();
                                 startActivity(loginIntent);
                             }
 

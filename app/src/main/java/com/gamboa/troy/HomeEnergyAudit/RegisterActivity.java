@@ -1,10 +1,12 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,22 +25,28 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity{
 
-    EditText ETfirstname, ETlastname, ETemail, ETusername, ETpassword, ETconfirm, ETphone_number;
+    EditText  ETemail, ETusername, ETpassword, ETconfirm;
     Button btnSignUp;
+    Toolbar registerToolbar;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         setTitle(getString(R.string.accountRegister));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        //custom register toolbar
+        registerToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(registerToolbar);
+        getSupportActionBar().setTitle(R.string.RegisterPls);
+        registerToolbar.setTitleTextColor(Color.WHITE);
+
         //Text Fields
-        ETfirstname = (EditText) findViewById(R.id.ETfirstname);
-        ETlastname = (EditText) findViewById(R.id.ETlastname);
         ETemail = (EditText) findViewById(R.id.ETemail);
         ETusername = (EditText) findViewById(R.id.ETusername);
         ETpassword = (EditText) findViewById(R.id.ETpassword);
         ETconfirm = (EditText) findViewById(R.id.ETconfirm);
-        ETphone_number = (EditText) findViewById(R.id.ETphonenumber);
         //Button
         btnSignUp = (Button)findViewById(R.id.BTsignup);
 
@@ -47,17 +55,13 @@ public class RegisterActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
 
-                    final String first_name = ETfirstname.getText().toString();
-                    final String last_name = ETlastname.getText().toString();
+                    final String username = ETusername.getText().toString();
+                    final String password = ETpassword.getText().toString();
+                    final String confirm = ETconfirm.getText().toString();
                     final String email = ETemail.getText().toString().trim();
 
                     //String to check that email is in correct format with Regular expression
                     final String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
-
-                    final String username = ETusername.getText().toString();
-                    final String password = ETpassword.getText().toString();
-                    final String confirm = ETconfirm.getText().toString();
-                    final String phone_number = ETphone_number.getText().toString();
 
                     //Initiate Listener
                     Response.Listener<String> responseListener = new Response.Listener<String>() {
@@ -90,7 +94,7 @@ public class RegisterActivity extends AppCompatActivity{
                         }
                     };
                     //call RegisterRequest class created in RegisterRequest.java and validate empty fields, email format, and confirm password
-                if(first_name.isEmpty() || last_name.isEmpty() || email.isEmpty() || username.isEmpty() || password.isEmpty() || confirm.isEmpty() || phone_number.isEmpty()) {
+                if(email.isEmpty() || username.isEmpty() || password.isEmpty() || confirm.isEmpty()) {
                     Toast.makeText(RegisterActivity.this, "Please Enter your information!", Toast.LENGTH_LONG).show();
                     }
 
@@ -106,7 +110,7 @@ public class RegisterActivity extends AppCompatActivity{
              //   }
                 else {
                     //if all fields succeed, call new volley queue and register to the database
-                    RegisterRequest registerRequest = new RegisterRequest(first_name, last_name, email, username, password, phone_number, responseListener);
+                    RegisterRequest registerRequest = new RegisterRequest(username, password, email, responseListener);
                     RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
                     queue.add(registerRequest);
                 }
@@ -118,16 +122,14 @@ public class RegisterActivity extends AppCompatActivity{
 
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        ETfirstname.setText("");
-        ETlastname.setText("");
-        ETemail.setText("");
-        ETusername.setText("");
-        ETpassword.setText("");
-        ETconfirm.setText("");
-        ETphone_number.setText("");
+   // @Override
+   // protected void onResume() {
+    //    super.onResume();
+     //   ETemail.setText("");
+      //  ETusername.setText("");
+     //   ETpassword.setText("");
+      //  ETconfirm.setText("");
 
-    }
+
+    //}
 }

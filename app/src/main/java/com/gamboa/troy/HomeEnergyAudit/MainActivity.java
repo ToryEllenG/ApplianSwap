@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private int[] tabIcons = {
             R.drawable.ic_home,
-            R.drawable.ic_timeline,
+            R.drawable.ic_assessment,
             R.drawable.ic_settings
     };
 
@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+
     }
 
     private void setupViewPager(ViewPager viewPager) {

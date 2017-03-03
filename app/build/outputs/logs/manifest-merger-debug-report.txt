@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xm
 	android:name
 		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:7:5-30:19
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.2.0] /root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.2.0] /root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/AndroidManifest.xml:22:5-20
@@ -67,38 +67,34 @@ activity#com.gamboa.troy.HomeEnergyAudit.MainActivity
 ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:21:9-81
 	android:name
 		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:21:19-78
-activity#com.gamboa.troy.HomeEnergyAudit.StatisticsActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:22:9-87
-	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:22:19-84
 activity#com.gamboa.troy.HomeEnergyAudit.RegisterActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:23:9-85
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:22:9-85
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:23:19-82
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:22:19-82
 activity#com.gamboa.troy.HomeEnergyAudit.AboutActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:24:9-82
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:23:9-82
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:24:19-79
-activity#com.gamboa.troy.HomeEnergyAudit.HouseDataActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:25:9-86
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:23:19-79
+activity#com.gamboa.troy.HomeEnergyAudit.ApplianceActivity
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:24:9-86
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:25:19-83
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:24:19-83
 activity#com.gamboa.troy.HomeEnergyAudit.LoginActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:26:9-82
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:25:9-82
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:26:19-79
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:25:19-79
 activity#com.gamboa.troy.HomeEnergyAudit.HouseRegisterActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:27:9-90
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:26:9-90
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:27:19-87
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:26:19-87
 activity#com.gamboa.troy.HomeEnergyAudit.ContactActivity
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:28:9-84
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:27:9-84
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:28:19-81
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:27:19-81
 activity#com.gamboa.troy.HomeEnergyAudit.ShowUserData
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:29:9-90
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:28:9-90
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:29:19-78
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:28:19-78
 uses-sdk
 INJECTED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:7:5-43

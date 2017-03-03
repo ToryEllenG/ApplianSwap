@@ -1,39 +1,7 @@
 [
     {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/instagram.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-hdpi/instagram.png"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/twitter.png",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/twitter.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/twitter.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-hdpi/twitter.png"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/instagram.png",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/instagram.png"
-    },
-    {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/facebook.png",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/facebook.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/facebook.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-hdpi/facebook.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/duke_dog.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-hdpi/duke_dog.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-hdpi/duke_dog.png",

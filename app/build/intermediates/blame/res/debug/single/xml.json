@@ -2,9 +2,5 @@
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/xml/preferences.xml"
     }
 ]

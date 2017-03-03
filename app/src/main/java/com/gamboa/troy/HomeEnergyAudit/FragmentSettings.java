@@ -60,11 +60,11 @@ public class FragmentSettings extends PreferenceFragmentCompat {
             }
         });
 
-        //preference intent for House Register Activity. Make new activity and change this later
+        //preference intent to ViewAppliance Activity. Make new activity and change this later
         openHouseRegister.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                Intent open = new Intent(getActivity(), HouseRegisterActivity.class);
+                Intent open = new Intent(getActivity(), ApplianceActivity.class);
                 startActivity(open);
                 return false;
             }

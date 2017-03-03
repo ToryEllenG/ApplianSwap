@@ -16,53 +16,132 @@
         />
 
     <TextView
-        android:text="@string/contact_us_through_our_social_media_sites_below"
+        android:text="Troy Gamboa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/name1"
+        android:textSize="18sp"
+        android:layout_below="@+id/contactTV"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/team_members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
         android:id="@+id/contactTV"
         android:textSize="24sp"
-        android:textStyle="normal|bold"
+        android:textStyle="normal|bold|italic"
         android:fontFamily="sans-serif"
-        android:textAlignment="center"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:src="@mipmap/twitter"
-        android:id="@+id/imageView3"
-        android:adjustViewBounds="true"
-        android:background="@null"
-        android:scaleType="fitCenter"
-        android:layout_alignTop="@+id/imageView2"
+        android:layout_below="@+id/my_toolbar"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:src="@mipmap/instagram"
-        android:id="@+id/imageView2"
-        android:adjustViewBounds="true"
-        android:background="@null"
-        android:scaleType="fitCenter"
-        android:layout_marginTop="110dp"
-        android:layout_below="@+id/contactTV"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="Jake Hagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView10"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/email1"
+        android:layout_centerHorizontal="true" />
 
-    <ImageButton
-        android:layout_width="100dip"
-        android:layout_height="100dip"
-        android:src="@mipmap/facebook"
-        android:id="@+id/imageView4"
-        android:adjustViewBounds="true"
-        android:background="@null"
-        android:scaleType="fitCenter"
-        android:layout_alignTop="@+id/imageView3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    <TextView
+        android:text="gamboata@dukes.jmu.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_below="@+id/name1"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15" />
+
+    <TextView
+        android:text="hagenjl@dukes.jmu.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/contactTV"
+        android:layout_alignStart="@+id/contactTV" />
+
+    <TextView
+        android:text="Julian Hermes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="hermesje@dukes.jmu.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Bryan Potter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textView16"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="potterba@dukes.jmu.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/advisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView13"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView20"
+        android:textSize="16sp"
+        android:text="teateaa@jmu.edu" />
+
+    <TextView
+        android:text="Dr. A. A. Teate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView13"
+        android:layout_alignRight="@+id/textView14"
+        android:layout_alignEnd="@+id/textView14"
+        android:layout_marginTop="13dp" />
+
 
 </RelativeLayout>

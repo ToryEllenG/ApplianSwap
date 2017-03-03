@@ -5,6 +5,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.gamboa.troy.HomeEnergyAudit.FragmentCompare">
+
     <RelativeLayout
         android:id="@+id/content_main"
         android:layout_width="match_parent"
@@ -22,59 +23,6 @@
 
 
         <TextView
-            android:text="Select Appliances"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:textColor="@android:color/black"
-            tools:textSize="18sp"
-            android:textStyle="normal|bold"
-            android:id="@+id/selectApplianceTextView"
-            android:layout_marginTop="26dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignLeft="@+id/dishwasherCheckBox"
-            android:layout_alignStart="@+id/dishwasherCheckBox" />
-
-        <TextView
-            android:text="Location"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/black"
-            tools:textSize="18sp"
-            android:textStyle="normal|bold"
-            android:id="@+id/locationTextView"
-            android:layout_marginBottom="16dp"
-            android:layout_above="@+id/countrySpinner"
-            android:layout_alignLeft="@+id/fridgeCheckBox"
-            android:layout_alignStart="@+id/fridgeCheckBox" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/countrySpinner"
-            android:layout_marginBottom="43dp"
-            android:layout_alignBottom="@+id/stateSpinner"
-            android:layout_alignLeft="@+id/locationTextView"
-            android:layout_alignStart="@+id/locationTextView" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/stateSpinner"
-            android:layout_marginBottom="74dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/countrySpinner"
-            android:layout_alignStart="@+id/countrySpinner" />
-
-        <Button
-            android:text="Submit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/washerCheckBox"
-            android:layout_alignEnd="@+id/washerCheckBox"
-            android:id="@+id/button" />
-
-        <TextView
             android:text="Power (kWh)"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,56 +36,6 @@
             android:textStyle="bold"
             android:textColor="@android:color/black" />
 
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText6"
-            android:layout_above="@+id/locationTextView"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginBottom="16dp" />
-
-        <CheckBox
-            android:text="Washer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/washerCheckBox"
-            android:layout_marginBottom="13dp"
-            android:layout_above="@+id/editText6"
-            android:layout_alignLeft="@+id/dryerCheckBox"
-            android:layout_alignStart="@+id/dryerCheckBox" />
-
-        <CheckBox
-            android:text="Refrigerator"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/fridgeCheckBox"
-            android:layout_alignBottom="@+id/editText6"
-            android:layout_alignLeft="@+id/washerCheckBox"
-            android:layout_alignStart="@+id/washerCheckBox" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText4"
-            android:layout_alignTop="@+id/washerCheckBox"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/editText3"
-
-            android:layout_alignTop="@+id/dishwasherCheckBox"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
 
         <CheckBox
             android:text="Dishwasher"
@@ -145,8 +43,18 @@
             android:layout_height="wrap_content"
             android:id="@+id/dishwasherCheckBox"
 
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="28dp"
             android:layout_below="@+id/selectApplianceTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:text="Washer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/washerCheckBox"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/editText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
@@ -157,9 +65,42 @@
             android:ems="10"
             android:id="@+id/editText"
 
-            android:layout_alignTop="@+id/dryerCheckBox"
+            android:layout_alignBaseline="@+id/dryerCheckBox"
+            android:layout_alignBottom="@+id/dryerCheckBox"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_alignBaseline="@+id/washerCheckBox"
+            android:layout_alignBottom="@+id/washerCheckBox"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_below="@+id/washerCheckBox"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="13dp" />
+
+        <CheckBox
+            android:text="Refrigerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fridgeCheckBox"
+            android:layout_alignBaseline="@+id/editText6"
+            android:layout_alignBottom="@+id/editText6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
         <CheckBox
             android:text="Dryer"
@@ -167,19 +108,79 @@
             android:layout_height="wrap_content"
             android:id="@+id/dryerCheckBox"
 
-            android:layout_marginTop="27dp"
-            android:layout_below="@+id/editText3"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/dishwasherCheckBox"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
-        <Button
-            android:text="@string/view_appliances"
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/viewStatisticsBT"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/selectApplianceTextView"
-            android:layout_toEndOf="@+id/selectApplianceTextView" />
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText3"
+
+            android:layout_above="@+id/dryerCheckBox"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/countrySpinner"
+            android:layout_below="@+id/locationTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateSpinner"
+            android:layout_below="@+id/locationTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="45dp" />
+
+        <TextView
+            android:text="Select Location:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/locationTextView"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/editText6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Select Appliances:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:textColor="@android:color/black"
+            tools:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/selectApplianceTextView"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_wb_incandescent"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/fabCompare"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/stateSpinner"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
 

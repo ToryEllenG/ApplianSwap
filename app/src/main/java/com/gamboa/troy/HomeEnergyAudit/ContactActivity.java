@@ -25,32 +25,5 @@ public class ContactActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Contact Information");
         contactToolBar.setTitleTextColor(Color.WHITE);
 
-        ImageButton instagram = (ImageButton)findViewById(R.id.imageView2);
-        ImageButton twitter = (ImageButton)findViewById(R.id.imageView3);
-        ImageButton facebook = (ImageButton)findViewById(R.id.imageView4);
-
-        instagram.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/Watts_On306/?hl=en"));
-                startActivity(browserIntent);
-            }
-        });
-
-        twitter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://twitter.com/Watts_On306"));
-                startActivity(browserIntent);
-            }
-        });
-
-        facebook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.facebook.com/WattsOn306"));
-                startActivity(browserIntent);
-            }
-        });
     }
 }

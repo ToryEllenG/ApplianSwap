@@ -12,8 +12,8 @@
         </Preference>
 
         <Preference
-            android:title="Home Profile"
-            android:summary="View or edit your home information."
+            android:title="Appliances"
+            android:summary="View or edit your Appliances."
             android:key="openHouseRegister"
             >
         </Preference>

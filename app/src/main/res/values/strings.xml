@@ -118,5 +118,8 @@
     <string name="contact_us_through_our_social_media_sites_below">Contact us through our social media sites below!</string>
     <string name="password">Password:</string>
     <string name="username">Username:</string>
+    <string name="RegisterPls">Please Register an Account</string>
+    <string name="team_members"><u>Team Members:</u></string>
+    <string name="advisor"><u>Advisor:</u></string>
 
 </resources>

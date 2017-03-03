@@ -1,19 +1,15 @@
 [
     {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_toc.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_toc.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_settings.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_home.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_timeline.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_timeline.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_assessment.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_assessment.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_person_black_24dp.png",
@@ -24,12 +20,8 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_settings.png"
     },
     {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings_applications.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_settings_applications.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_timeline.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_timeline.png"
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_wb_incandescent.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_wb_incandescent.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings_applications.png",
@@ -38,13 +30,5 @@
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_toc.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_toc.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_person_black_24dp.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_person_black_24dp.png"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/drawable-xhdpi/ic_home.png"
     }
 ]

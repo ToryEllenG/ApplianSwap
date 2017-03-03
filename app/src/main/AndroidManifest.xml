@@ -19,10 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.MainActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.StatisticsActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.RegisterActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.AboutActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseDataActivity" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ApplianceActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.LoginActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseRegisterActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />

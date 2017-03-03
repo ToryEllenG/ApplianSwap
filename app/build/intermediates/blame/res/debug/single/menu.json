@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/menu/drawermenu.xml",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/menu/drawermenu.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/menu/drawermenu.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/menu/drawermenu.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/menu/main_menu.xml"
-    },
-    {
-        "merged": "/home/troygbv/Downloads/EnergyApp/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
-        "source": "/home/troygbv/Downloads/EnergyApp/app/src/main/res/menu/main_menu.xml"
     }
 ]
