@@ -5,26 +5,26 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="46995619534971"
+    timestamp="50304973196613"
     token="7058460234486669854"
-    verifier="COMPATIBLE" >
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1688" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="202" />
     <task
         name="verifier"
-        duration="0" />
+        duration="96" />
 
     <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
 
     <build
         timestamp="37612961205777"
@@ -47,18 +47,11 @@
             type="DEX" />
     </build>
     <build
-        timestamp="46905565499587"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="50304973196613"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="46995619534971"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

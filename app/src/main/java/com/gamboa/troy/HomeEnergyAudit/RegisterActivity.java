@@ -122,14 +122,14 @@ public class RegisterActivity extends AppCompatActivity{
 
     }
 
-   // @Override
-   // protected void onResume() {
-    //    super.onResume();
-     //   ETemail.setText("");
-      //  ETusername.setText("");
-     //   ETpassword.setText("");
-      //  ETconfirm.setText("");
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ETemail.setText("");
+        ETusername.setText("");
+        ETpassword.setText("");
+        ETconfirm.setText("");
 
 
-    //}
+     }
 }

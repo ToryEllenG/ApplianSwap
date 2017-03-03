@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 03 13:26:07 EST 2017
+#Fri Mar 03 13:52:20 EST 2017
 210.set=ANDROID_RESOURCE
 282.file=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_singlechoice_material.xml
 14.set=ANDROID_RESOURCE
