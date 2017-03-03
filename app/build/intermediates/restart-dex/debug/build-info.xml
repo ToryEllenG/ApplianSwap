@@ -5,7 +5,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="39425651324556"
+    timestamp="46995619534971"
     token="7058460234486669854"
     verifier="COMPATIBLE" >
 
@@ -34,21 +34,27 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="37733455711822"
+        timestamp="46827128437423"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="46905565499587"
         verifier="R_CLASS_CHANGE" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="37838835969664"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/builds/debug/37838835969664/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="39425651324556"
+        timestamp="46995619534971"
         verifier="COMPATIBLE" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

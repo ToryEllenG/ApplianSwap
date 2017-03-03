@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <ImageView
+        android:layout_width="30dp"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        android:layout_alignTop="@+id/ETusername"
+        android:layout_toLeftOf="@+id/ETusername"
+        android:layout_toStartOf="@+id/ETusername"
+        android:id="@+id/imageView8"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        android:layout_alignTop="@+id/ETpassword"
+        android:layout_toLeftOf="@+id/ETpassword"
+        android:layout_toStartOf="@+id/ETpassword"
+        android:id="@+id/imageView6"
+        android:layout_height="40dp" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -14,88 +33,49 @@
         />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/ETemail"
-        android:hint="email@email.com"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/ETusername"
-        android:layout_alignEnd="@+id/ETusername"
-        android:textAlignment="textStart" />
-
-    <EditText
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/ETconfirm"
-        android:layout_above="@+id/emailTV"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/ETemail"
-        android:layout_alignEnd="@+id/ETemail"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ETemail"
+        android:layout_alignStart="@+id/ETemail"
+        android:layout_width="255dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="255dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/ETpassword"
+        android:textAlignment="textStart"
         android:layout_above="@+id/confirmTV"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/ETconfirm"
-        android:layout_alignEnd="@+id/ETconfirm"
-        android:textAlignment="textStart" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/ETusername"
-        android:layout_above="@+id/passwordTV"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textAlignment="textStart" >
-        <requestFocus/>
-    </EditText>
-
-    <TextView
-        android:text="Email:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/emailTV"
-        android:layout_above="@+id/ETemail"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp" />
+        android:layout_alignLeft="@+id/ETconfirm"
+        android:layout_alignStart="@+id/ETconfirm" />
 
     <TextView
         android:text="Confirm Password:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/confirmTV"
+        android:textAlignment="textStart"
         android:layout_above="@+id/ETconfirm"
-        android:layout_alignLeft="@+id/emailTV"
-        android:layout_alignStart="@+id/emailTV"
-        android:textAlignment="textStart" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
 
-    <TextView
-        android:text="Password:"
-        android:layout_width="wrap_content"
+    <EditText
         android:layout_height="wrap_content"
-        android:id="@+id/passwordTV"
-        android:layout_above="@+id/ETpassword"
-        android:layout_alignLeft="@+id/confirmTV"
-        android:layout_alignStart="@+id/confirmTV"
-        android:textAlignment="textStart" />
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ETusername"
+        android:textAlignment="textStart"
+        android:layout_above="@+id/passwordTV"
+        android:layout_alignLeft="@+id/ETpassword"
+        android:layout_alignStart="@+id/ETpassword"
+        android:layout_width="255dp">
+        <requestFocus/>
+    </EditText>
 
     <TextView
         android:text="Username:"
@@ -103,19 +83,68 @@
         android:layout_height="wrap_content"
         android:id="@+id/usernameTV"
 
+        android:textAlignment="textStart"
         android:layout_above="@+id/ETusername"
-        android:layout_alignLeft="@+id/passwordTV"
-        android:layout_alignStart="@+id/passwordTV"
-        android:textAlignment="textStart" />
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTV"
+        android:textAlignment="textStart"
+        android:layout_above="@+id/ETpassword"
+        android:layout_alignRight="@+id/usernameTV"
+        android:layout_alignEnd="@+id/usernameTV"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailTV"
+        android:layout_below="@+id/ETconfirm"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:layout_width="30dp"
+        app:srcCompat="@android:drawable/ic_lock_lock"
+        android:id="@+id/imageView5"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/ETconfirm"
+        android:layout_toLeftOf="@+id/ETconfirm"
+        android:layout_toStartOf="@+id/ETconfirm" />
+
+    <ImageView
+        android:layout_width="30dp"
+        app:srcCompat="@drawable/ic_email"
+        android:id="@+id/imageView3"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/ETemail"
+        android:layout_toLeftOf="@+id/ETemail"
+        android:layout_toStartOf="@+id/ETemail" />
+
+    <EditText
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/ETemail"
+        android:hint="email@email.com"
+        android:textAlignment="textStart"
+        android:layout_below="@+id/emailTV"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="Sign Up!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/BTsignup"
-        android:layout_marginTop="57dp"
+        android:textAlignment="center"
         android:layout_below="@+id/ETemail"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center" />
+        android:layout_marginTop="35dp" />
 
 </RelativeLayout>

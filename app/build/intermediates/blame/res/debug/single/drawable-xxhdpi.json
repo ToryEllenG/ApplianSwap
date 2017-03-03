@@ -8,6 +8,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxhdpi/ic_home.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_email.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxhdpi/ic_email.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_assessment.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxhdpi/ic_assessment.png"
     },

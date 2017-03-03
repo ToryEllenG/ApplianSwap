@@ -32,6 +32,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-hdpi/ic_home.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_email.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-hdpi/ic_email.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_wb_incandescent.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-hdpi/ic_wb_incandescent.png"
     }
