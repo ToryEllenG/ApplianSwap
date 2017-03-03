@@ -5,7 +5,7 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="37890850555573"
+    timestamp="39425651324556"
     token="7058460234486669854"
     verifier="COMPATIBLE" >
 
@@ -48,7 +48,7 @@
             type="RELOAD_DEX" />
     </build>
     <build
-        timestamp="37890850555573"
+        timestamp="39425651324556"
         verifier="COMPATIBLE" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"

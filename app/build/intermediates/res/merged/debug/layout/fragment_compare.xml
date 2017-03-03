@@ -119,10 +119,13 @@
             android:inputType="number"
             android:ems="10"
             android:id="@+id/editText3"
-
             android:layout_above="@+id/dryerCheckBox"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true">
+            <requestFocus/>
+        </EditText>
+
+
 
         <Spinner
             android:layout_width="match_parent"
