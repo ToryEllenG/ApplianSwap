@@ -1,4 +1,4 @@
-#Fri Mar 03 10:49:48 EST 2017
+#Wed Mar 08 21:37:46 EST 2017
 base.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747
 renamed.1=classes2.dex
 renamed.0=classes.dex

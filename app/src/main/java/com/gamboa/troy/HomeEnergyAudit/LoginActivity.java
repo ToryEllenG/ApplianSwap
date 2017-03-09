@@ -86,6 +86,7 @@ public class LoginActivity extends AppCompatActivity{
                                 String username = jsonResponse.getString("username");
                                 Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
                                 loginIntent.putExtra("username", username);
+                                //toast if successful login
                                 Toast loginSuccess = Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT);
                                 loginSuccess.show();
                                 startActivity(loginIntent);

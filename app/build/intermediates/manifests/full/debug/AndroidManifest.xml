@@ -32,6 +32,7 @@
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseRegisterActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ShowUserData" />
+        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ResultsActivity" />
     </application>
 
 </manifest>

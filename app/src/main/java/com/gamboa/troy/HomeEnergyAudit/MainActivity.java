@@ -34,10 +34,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Set up scrolling tab view
         toolbar =(Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager)findViewById(R.id.viewpager);
@@ -45,25 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
-        //call icons
+        //call icons from custom class
         setupTabIcons();
-
-
-
-
-       // final Button houseRegister = (Button)findViewById(R.id.HouseRegisterBT);
-
-        //Register house data button
-      //  houseRegister.setOnClickListener(new View.OnClickListener() {
-
-        //    @Override
-        //    public void onClick(View v) {
-        //        Intent intent  = new Intent(MainActivity.this, HouseRegisterActivity.class);
-       //        startActivity(intent);
-         //   }
-       // });
-
-
     }
 
     private void setupTabIcons() {

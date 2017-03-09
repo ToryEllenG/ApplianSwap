@@ -46,6 +46,12 @@
             >
         </Preference>
 
+        <Preference
+            android:title="Logout"
+            android:key="keyLogout"
+            >
+        </Preference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

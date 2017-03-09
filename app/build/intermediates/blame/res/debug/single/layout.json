@@ -224,6 +224,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_item_separator.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/activity_results.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/layout/activity_results.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_icon_group.xml"
     },

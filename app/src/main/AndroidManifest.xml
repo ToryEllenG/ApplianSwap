@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.SplashActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="com.gamboa.troy.WattsOn.AboutActivity" />
@@ -18,14 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.MainActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.RegisterActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.AboutActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ApplianceActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.LoginActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.HouseRegisterActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ShowUserData"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ApplianceActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HouseRegisterActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".ShowUserData" />
+        <activity android:name=".ResultsActivity"/>
     </application>
 
 </manifest>
