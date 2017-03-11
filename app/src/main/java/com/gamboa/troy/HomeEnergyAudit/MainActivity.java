@@ -2,6 +2,7 @@ package com.gamboa.troy.HomeEnergyAudit;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import java.util.ArrayList;
 import java.util.List;
 import android.support.v4.app.Fragment;
@@ -19,7 +19,6 @@ import android.support.v4.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    //private TextView welcomeMessage;
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -46,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         //call icons from custom class
         setupTabIcons();
     }
+
 
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);

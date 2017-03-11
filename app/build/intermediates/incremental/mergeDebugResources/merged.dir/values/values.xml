@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <string-array name="daterange_arrays">
-        <item>Jan 2017 - Feb 2017</item>
-        <item>Feb 2017 - Mar 2017</item>
-        <item>Mar 2017 - Apr 2017</item>
-        <item>Apr 2017 - May 2017</item>
-        <item>May 2017 - June 2017</item>
-    </string-array>
     <string-array name="interval_arrays">
         <item>Seconds</item>
         <item>Minutes</item>
@@ -15,21 +8,20 @@
         <item>Weeks</item>
         <item>Months</item>
     </string-array>
+    <string-array name="nav_titles">
+        <item>Username</item>
+        <item>Email</item>
+        <item>Change your information</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Contact</item>
+        <item>Logout</item>
+    </string-array>
     <string-array name="result_arrays">
         <item>Dishwasher</item>
         <item>Dryer</item>
         <item>Washer</item>
         <item>Refrigerator</item>
-    </string-array>
-    <string-array name="room_arrays">
-        <item>Kitchen</item>
-        <item>Living Room</item>
-        <item>Bathroom 1</item>
-        <item>Bathroom 2</item>
-        <item>Room 1</item>
-        <item>Room 2</item>
-        <item>Room 3</item>
-        <item>Room 4</item>
     </string-array>
     <string-array name="states_array">
         <item/>
@@ -764,6 +756,8 @@
         <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>

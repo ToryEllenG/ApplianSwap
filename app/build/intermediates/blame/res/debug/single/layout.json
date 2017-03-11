@@ -104,6 +104,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_layout_tab_icon.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/activity_profile.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/layout/design_navigation_menu_item.xml"
     },
@@ -124,12 +128,12 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/layout/activity_splash.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout/notification_template_custom_big.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",

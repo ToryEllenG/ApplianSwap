@@ -13,11 +13,11 @@ public class ShowUserData extends AppCompatActivity {
 //fix this whole activity
         TextView usernameTV = (TextView)findViewById(R.id.showUnameTV);
         Bundle extras = getIntent().getExtras();
-        String username = extras.getString("username");
-        usernameTV.setText(username);
+       // String username = extras.getString("username");
+      //  usernameTV.setText(username);
 
         TextView passwordTV = (TextView)findViewById(R.id.showPwordTV);
-        String password = extras.getString("username");
-        passwordTV.setText(password);
+     //   String password = extras.getString("username");
+       // passwordTV.setText(password);
     }
 }

@@ -48,6 +48,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable/bg_circle.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable/bg_circle.xml"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable/abc_btn_borderless_material.xml"
     },

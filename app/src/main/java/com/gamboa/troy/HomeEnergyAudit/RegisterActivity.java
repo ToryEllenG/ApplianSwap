@@ -104,10 +104,6 @@ public class RegisterActivity extends AppCompatActivity{
                 else if(!confirm.equals(password)){
                     Toast.makeText(getApplicationContext()," Passwords do not match! ", Toast.LENGTH_SHORT).show();
                 }
-               // else if(PhoneNumberUtils.isGlobalPhoneNumber(phone_number)) {
-              //      Toast.makeText(getApplicationContext()," Please enter Phone Number in the form of ###-###-####", Toast.LENGTH_LONG).show();
-
-             //   }
                 else {
                     //if all fields succeed, call new volley queue and register to the database
                     RegisterRequest registerRequest = new RegisterRequest(username, password, email, responseListener);

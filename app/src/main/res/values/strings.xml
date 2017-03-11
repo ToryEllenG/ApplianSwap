@@ -83,15 +83,14 @@
         <item>Months</item>
     </string-array>
 
-    <string-array name="room_arrays">
-        <item>Kitchen</item>
-        <item>Living Room</item>
-        <item>Bathroom 1</item>
-        <item>Bathroom 2</item>
-        <item>Room 1</item>
-        <item>Room 2</item>
-        <item>Room 3</item>
-        <item>Room 4</item>
+    <string-array name="nav_titles">
+        <item>Username</item>
+        <item>Email</item>
+        <item>Change your information</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Contact</item>
+        <item>Logout</item>
     </string-array>
 
     <string-array name="result_arrays">
@@ -108,13 +107,6 @@
         <item>Per Month</item>
     </string-array>
 
-    <string-array name="daterange_arrays">
-        <item>Jan 2017 - Feb 2017</item>
-        <item>Feb 2017 - Mar 2017</item>
-        <item>Mar 2017 - Apr 2017</item>
-        <item>Apr 2017 - May 2017</item>
-        <item>May 2017 - June 2017</item>
-    </string-array>
 
     <string name="title_activity_nav_drawer">NavDrawer</string>
     <string name="openDrawer">open_drawer</string>

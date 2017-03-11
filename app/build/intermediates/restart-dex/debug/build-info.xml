@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="296577019473881"
+    timestamp="441883611339782"
     token="7058460234486669854"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1614" />
+        duration="1428" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1696" />
+        duration="579" />
     <task
         name="verifier"
-        duration="66" />
+        duration="23" />
 
     <artifact
         location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="296577019473881"
+        timestamp="441883611339782"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"

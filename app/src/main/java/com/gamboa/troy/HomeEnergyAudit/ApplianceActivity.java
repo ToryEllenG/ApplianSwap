@@ -41,10 +41,11 @@ public class ApplianceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_appliance_data);
 
         //custom Appliance toolbar
-        //applianceToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-       // setSupportActionBar(applianceToolbar);
-       // getSupportActionBar().setTitle("List of Appliances");
-       // applianceToolbar.setTitleTextColor(Color.WHITE);
+        applianceToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(applianceToolbar);
+        getSupportActionBar().setTitle("List of Appliances");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        applianceToolbar.setTitleTextColor(Color.WHITE);
 
         //Create RequestQueue through Volley
         requestQueue = Volley.newRequestQueue(this);
@@ -91,6 +92,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
+                                jsonResponse += "---------------------------------------------";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);
@@ -117,5 +119,10 @@ public class ApplianceActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 }
 

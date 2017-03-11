@@ -33,7 +33,10 @@ public class ResultsActivity extends AppCompatActivity {
 
     //Variables for API call
     TextView results;
-    String JsonURL = "http://54.147.237.12:3000/api/Appliances";
+    String JsonDishURL = "http://54.147.237.12/phpAPI/getDish.php";
+    String JsonDryerURL = "http://54.147.237.12/phpAPI/getDryer.php";
+    String JsonWasherURL = "http://54.147.237.12/phpAPI/getWasher.php";
+    String JsonFridgeURL = "http://54.147.237.12/phpAPI/getFridge.php";
     String jsonResponse = "";
     //Define Queue
     RequestQueue requestQueue;
@@ -50,8 +53,8 @@ public class ResultsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         resultTB.setTitleTextColor(Color.WHITE);
 
+        //Use Bundle to get extra strings from user input from FragmentCompare.java
         Bundle extras = getIntent().getExtras();
-
         final String bGetDish = extras.getString("getDish");
         final String bGetDryer = extras.getString("getDryer");
         final String bGetWasher = extras.getString("getWasher");
@@ -66,6 +69,11 @@ public class ResultsActivity extends AppCompatActivity {
         //spinner logic
         applianceChoices = (Spinner)findViewById(R.id.choicesSP);
 
+        //Create RequestQueue through Volley
+        requestQueue = Volley.newRequestQueue(this);
+        //Put results in a TextView embedded within a scrollview
+        results = (TextView) findViewById(R.id.jsonData);
+
         //assign spinner to an adapter
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.result_arrays, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -79,19 +87,24 @@ public class ResultsActivity extends AppCompatActivity {
                 //set power TextView based on spinner. Edit this later to  also include alternative results
                 switch (position) {
                     case 0:
+                        //set TextView based on user input from FragmentCompare.java
                         powerTV.setText(bGetDish);
+                        //call json request method based on spinner
+                        fetchDishData();
                         break;
                     case 1:
                         powerTV.setText(bGetDryer);
+                        fetchDryerData();
                         break;
                     case 2:
                         powerTV.setText(bGetWasher);
+                        fetchWasherData();
                         break;
                     case 3:
                         powerTV.setText(bGetFridge);
+                        fetchFridgeData();
                         break;
                 }
-
             }
 
             @Override
@@ -99,13 +112,6 @@ public class ResultsActivity extends AppCompatActivity {
 
             }
         });
-
-        //Create RequestQueue through Volley
-        requestQueue = Volley.newRequestQueue(this);
-        //Put results in a TextView embedded within a scrollview
-        results = (TextView) findViewById(R.id.jsonData);
-        //Call JSON Request Method
-        fetchHouseData();
 
     }
 
@@ -137,9 +143,11 @@ public class ResultsActivity extends AppCompatActivity {
 
     }
 
-    private void fetchHouseData() {
 
-        JsonArrayRequest req = new JsonArrayRequest(JsonURL,
+    //custom methods to call json data based on appliance type
+    private void fetchDishData() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonDishURL,
 
                 new Response.Listener<JSONArray>() {
                     @Override
@@ -153,13 +161,14 @@ public class ResultsActivity extends AppCompatActivity {
                                 String make = HouseData.getString("make");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
-                                String cost = HouseData.getString("cost");
-                                String lifeExpectancy = HouseData.getString("lifeExpectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimatedYearlyUse");
-                                String estimatedYearlyCost = HouseData.getString("estimatedYearlyCost");
-                                String kwhLowUse = HouseData.getString("kwhLowUse");
-                                String kwhMedUse = HouseData.getString("kwhMedUse");
-                                String kwhHighUse = HouseData.getString("kwhHighUse");
+                                String cost = HouseData.getString("Cost");
+                                String lifeExpectancy = HouseData.getString("life_expectancy");
+                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
+                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
+                                String kwhLowUse = HouseData.getString("kWh_low_use");
+                                String kwhMedUse = HouseData.getString("kWh_med_use");
+                                String kwhHighUse = HouseData.getString("kWh_high_use");
+                                //add link String when data is added to database
 
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
@@ -173,6 +182,196 @@ public class ResultsActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
+                                jsonResponse += "---------------------------------------------";
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            results.setText(jsonResponse);
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
+    }
+
+    private void fetchDryerData() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonDryerURL,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String make = HouseData.getString("make");
+                                String model = HouseData.getString("model");
+                                String type = HouseData.getString("type");
+                                String cost = HouseData.getString("Cost");
+                                String lifeExpectancy = HouseData.getString("life_expectancy");
+                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
+                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
+                                String kwhLowUse = HouseData.getString("kWh_low_use");
+                                String kwhMedUse = HouseData.getString("kWh_med_use");
+                                String kwhHighUse = HouseData.getString("kWh_high_use");
+                                //add link String when data is added to database
+
+                                //provide spacing and call parsed values
+                                jsonResponse += "\n";
+                                jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Model: " + model  + "\n\n";
+                                jsonResponse += "Type: " + type + "\n\n";
+                                jsonResponse += "Cost: " + cost   + "\n\n";
+                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
+                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
+                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
+                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
+                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
+                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
+                                jsonResponse += "---------------------------------------------";
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            results.setText(jsonResponse);
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
+    }
+
+    private void fetchWasherData() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonWasherURL,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String make = HouseData.getString("make");
+                                String model = HouseData.getString("model");
+                                String type = HouseData.getString("type");
+                                String cost = HouseData.getString("Cost");
+                                String lifeExpectancy = HouseData.getString("life_expectancy");
+                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
+                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
+                                String kwhLowUse = HouseData.getString("kWh_low_use");
+                                String kwhMedUse = HouseData.getString("kWh_med_use");
+                                String kwhHighUse = HouseData.getString("kWh_high_use");
+                                //add link String when data is added to database
+
+                                //provide spacing and call parsed values
+                                jsonResponse += "\n";
+                                jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Model: " + model  + "\n\n";
+                                jsonResponse += "Type: " + type + "\n\n";
+                                jsonResponse += "Cost: " + cost   + "\n\n";
+                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
+                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
+                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
+                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
+                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
+                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
+                                jsonResponse += "---------------------------------------------";
+                            }
+                            // Adds the jsonResponse string to the TextView "results"
+                            results.setText(jsonResponse);
+                        }
+                        catch (JSONException e) {
+                            e.printStackTrace();
+                            Toast.makeText(getApplicationContext(),
+                                    "Error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("Volley", "Error");
+
+
+            }
+        }
+
+        );
+        requestQueue.add(req);
+    }
+
+    private void fetchFridgeData() {
+
+        JsonArrayRequest req = new JsonArrayRequest(JsonFridgeURL,
+
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        try {
+                            jsonResponse = "";
+                            //loop through each response in the json
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject HouseData = (JSONObject) response.get(i);
+
+                                String make = HouseData.getString("make");
+                                String model = HouseData.getString("model");
+                                String type = HouseData.getString("type");
+                                String cost = HouseData.getString("Cost");
+                                String lifeExpectancy = HouseData.getString("life_expectancy");
+                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
+                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
+                                String kwhLowUse = HouseData.getString("kWh_low_use");
+                                String kwhMedUse = HouseData.getString("kWh_med_use");
+                                String kwhHighUse = HouseData.getString("kWh_high_use");
+                                //add link String when data is added to database
+
+                                //provide spacing and call parsed values
+                                jsonResponse += "\n";
+                                jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Model: " + model  + "\n\n";
+                                jsonResponse += "Type: " + type + "\n\n";
+                                jsonResponse += "Cost: " + cost   + "\n\n";
+                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
+                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
+                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
+                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
+                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
+                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
+                                jsonResponse += "---------------------------------------------";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);

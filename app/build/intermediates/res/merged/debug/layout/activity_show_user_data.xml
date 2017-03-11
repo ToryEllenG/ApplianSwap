@@ -31,4 +31,16 @@
         android:layout_alignStart="@+id/showUnameTV"
         android:layout_marginTop="32dp"
         android:id="@+id/showPwordTV" />
+
+    <TextView
+        android:text="User Profile Goes Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/showUnameTV"
+        android:layout_toEndOf="@+id/showUnameTV"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView7" />
 </RelativeLayout>

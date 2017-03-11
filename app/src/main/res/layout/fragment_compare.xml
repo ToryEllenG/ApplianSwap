@@ -22,21 +22,6 @@
         android:layout_alignParentStart="true">
 
 
-        <TextView
-            android:text="Power (kWh)"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/selectApplianceTextView"
-            android:layout_toRightOf="@+id/selectApplianceTextView"
-            android:layout_toEndOf="@+id/selectApplianceTextView"
-            android:layout_marginLeft="61dp"
-            android:layout_marginStart="61dp"
-            android:id="@+id/powerTextView"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black" />
-
-
         <CheckBox
             android:text="Dishwasher"
             android:layout_width="wrap_content"
@@ -67,7 +52,8 @@
             android:layout_alignBaseline="@+id/dryerCheckBox"
             android:layout_alignBottom="@+id/dryerCheckBox"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:editable="false"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -78,7 +64,8 @@
             android:layout_alignBaseline="@+id/washerCheckBox"
             android:layout_alignBottom="@+id/washerCheckBox"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:editable="false"/>
 
         <CheckBox
             android:text="Dryer"
@@ -161,7 +148,8 @@
             android:layout_marginTop="18dp"
             android:layout_below="@+id/washerET"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+            android:editable="false"/>
 
         <CheckBox
             android:text="Refrigerator"
@@ -181,8 +169,23 @@
             android:id="@+id/dishwasherET"
             android:layout_alignBottom="@+id/dishwasherCheckBox"
             android:layout_alignLeft="@+id/dryerET"
-            android:layout_alignStart="@+id/dryerET">
+            android:layout_alignStart="@+id/dryerET"
+            android:editable="false">
+
         </EditText>
+
+        <TextView
+            android:text=" Average Power (kWh):"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/powerTextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignBaseline="@+id/selectApplianceTextView"
+            android:layout_alignBottom="@+id/selectApplianceTextView"
+            android:layout_alignLeft="@+id/stateSpinner"
+            android:layout_alignStart="@+id/stateSpinner" />
 
     </RelativeLayout>
 

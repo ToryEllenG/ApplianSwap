@@ -13,7 +13,7 @@
 
         <Preference
             android:title="Appliances"
-            android:summary="View or edit your Appliances."
+            android:summary="See all available appliances."
             android:key="openHouseRegister"
             >
         </Preference>
