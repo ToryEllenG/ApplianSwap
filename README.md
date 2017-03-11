@@ -7,10 +7,10 @@ The purpose of this application is to provide a medium which allows the everyday
 
 **Team members:**  
 
-Troy Gamboa
-Julian Hermes
-Jake Hagen
-Bryan Potter
+Troy Gamboa  
+Julian Hermes  
+Jake Hagen  
+Bryan Potter  
 
 **Advisor:**  
 Dr. A. A. Teate
