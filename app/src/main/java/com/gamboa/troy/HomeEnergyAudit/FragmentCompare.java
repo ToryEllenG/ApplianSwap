@@ -119,16 +119,22 @@ public class FragmentCompare extends Fragment {
                 openResults.putExtras(extras);
 
                 //check user input and toast to alert
-               if (getDish.isEmpty() & dishwasherCheck.isChecked()) {
+                if(!etDishwasher.isEnabled() && !etDryer.isEnabled() && !etWasher.isEnabled() && !etFridge.isEnabled()) {
+                    Toast.makeText(getActivity(), "Please select at least one appliance", Toast.LENGTH_LONG).show();
+
+                } else if (getDish.isEmpty() && dishwasherCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Dishwasher!", Toast.LENGTH_LONG).show();
 
-                } else if (getDryer.isEmpty() & dryerCheck.isChecked()) {
+                } else if (getDryer.isEmpty() && dryerCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Dryer!", Toast.LENGTH_LONG).show();
 
-                } else if (getWasher.isEmpty() & washerCheck.isChecked()) {
+                } else if (getWasher.isEmpty() && washerCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Washer!", Toast.LENGTH_LONG).show();
 
-                } else if (stateStr.matches("")) {
+                } else if (getFridge.isEmpty() && fridgeCheck.isChecked()) {
+                    Toast.makeText(getActivity(), "Please enter a valid value for Fridge!", Toast.LENGTH_LONG).show();
+                }
+                else if (stateStr.matches("")) {
                     Toast.makeText(getActivity(), "Please select a state!", Toast.LENGTH_LONG).show();
 
                 } else { //start activity if selected fields are valid
