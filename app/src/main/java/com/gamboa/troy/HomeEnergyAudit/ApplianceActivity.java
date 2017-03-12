@@ -72,13 +72,16 @@ public class ApplianceActivity extends AppCompatActivity {
                                 String make = HouseData.getString("make");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
-                                String cost = HouseData.getString("cost");
-                                String lifeExpectancy = HouseData.getString("lifeExpectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimatedYearlyUse");
-                                String estimatedYearlyCost = HouseData.getString("estimatedYearlyCost");
-                                String kwhLowUse = HouseData.getString("kwhLowUse");
-                                String kwhMedUse = HouseData.getString("kwhMedUse");
-                                String kwhHighUse = HouseData.getString("kwhHighUse");
+                                String cost = HouseData.getString("Cost");
+                                String lifeExpectancy = HouseData.getString("life_expectancy");
+                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
+                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
+                                String kwhLowUse = HouseData.getString("kWh_low_use");
+                                String kwhMedUse = HouseData.getString("kWh_med_use");
+                                String kwhHighUse = HouseData.getString("kWh_high_use");
+                                String features = HouseData.getString("Features");
+                                String link = HouseData.getString("Link");
+                                //add link String when data is added to database
 
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
@@ -92,7 +95,9 @@ public class ApplianceActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "---------------------------------------------";
+                                jsonResponse += "Additional Features: " + features + "\n\n";
+                                jsonResponse += "Link to purchase: " + link + "\n\n";
+                                jsonResponse += "----------------------------------------------" + "\n";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);

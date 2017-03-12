@@ -89,7 +89,7 @@ public class ResultsActivity extends AppCompatActivity {
                     case 0:
                         //set TextView based on user input from FragmentCompare.java
                         powerTV.setText(bGetDish);
-                        //call json request method based on spinner
+                        //call json request method based on spinner position
                         fetchDishData();
                         break;
                     case 1:
@@ -168,6 +168,8 @@ public class ResultsActivity extends AppCompatActivity {
                                 String kwhLowUse = HouseData.getString("kWh_low_use");
                                 String kwhMedUse = HouseData.getString("kWh_med_use");
                                 String kwhHighUse = HouseData.getString("kWh_high_use");
+                                String features = HouseData.getString("Features");
+                                String link = HouseData.getString("Link");
                                 //add link String when data is added to database
 
                                 //provide spacing and call parsed values
@@ -182,7 +184,9 @@ public class ResultsActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "---------------------------------------------";
+                                jsonResponse += "Additional Features: " + features + "\n\n";
+                                jsonResponse += "Link to purchase: " + link + "\n\n";
+                                jsonResponse += "----------------------------------------------" + "\n";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);
@@ -231,6 +235,8 @@ public class ResultsActivity extends AppCompatActivity {
                                 String kwhLowUse = HouseData.getString("kWh_low_use");
                                 String kwhMedUse = HouseData.getString("kWh_med_use");
                                 String kwhHighUse = HouseData.getString("kWh_high_use");
+                                String features = HouseData.getString("Features");
+                                String link = HouseData.getString("Link");
                                 //add link String when data is added to database
 
                                 //provide spacing and call parsed values
@@ -245,7 +251,9 @@ public class ResultsActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "---------------------------------------------";
+                                jsonResponse += "Additional Features: " + features + "\n\n";
+                                jsonResponse += "Link to purchase: " + link + "\n\n";
+                                jsonResponse += "----------------------------------------------" + "\n";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);
@@ -294,6 +302,8 @@ public class ResultsActivity extends AppCompatActivity {
                                 String kwhLowUse = HouseData.getString("kWh_low_use");
                                 String kwhMedUse = HouseData.getString("kWh_med_use");
                                 String kwhHighUse = HouseData.getString("kWh_high_use");
+                                String features = HouseData.getString("Features");
+                                String link = HouseData.getString("Link");
                                 //add link String when data is added to database
 
                                 //provide spacing and call parsed values
@@ -308,7 +318,9 @@ public class ResultsActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "---------------------------------------------";
+                                jsonResponse += "Additional Features: " + features + "\n\n";
+                                jsonResponse += "Link to purchase: " + link + "\n\n";
+                                jsonResponse += "----------------------------------------------" + "\n";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);
@@ -357,6 +369,8 @@ public class ResultsActivity extends AppCompatActivity {
                                 String kwhLowUse = HouseData.getString("kWh_low_use");
                                 String kwhMedUse = HouseData.getString("kWh_med_use");
                                 String kwhHighUse = HouseData.getString("kWh_high_use");
+                                String features = HouseData.getString("Features");
+                                String link = HouseData.getString("Link");
                                 //add link String when data is added to database
 
                                 //provide spacing and call parsed values
@@ -371,7 +385,9 @@ public class ResultsActivity extends AppCompatActivity {
                                 jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
                                 jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
                                 jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "---------------------------------------------";
+                                jsonResponse += "Additional Features: " + features + "\n\n";
+                                jsonResponse += "Link to purchase: " + link + "\n\n";
+                                jsonResponse += "----------------------------------------------" + "\n";
                             }
                             // Adds the jsonResponse string to the TextView "results"
                             results.setText(jsonResponse);
