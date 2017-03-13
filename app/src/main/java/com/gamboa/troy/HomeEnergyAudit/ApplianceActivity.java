@@ -27,7 +27,7 @@ public class ApplianceActivity extends AppCompatActivity {
 
     //Variables for API call
     TextView results;
-    String JsonURL = "http://54.147.237.12:3000/api/Appliances";
+    String JsonURL = "http://54.147.237.12/phpAPI/getAll.php";
     String jsonResponse = "";
     //Define Queue
     RequestQueue requestQueue;

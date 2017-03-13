@@ -4,12 +4,12 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxxhdpi/ic_email.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home.png",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxxhdpi/ic_home.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_toc.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxxhdpi/ic_toc.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xxxhdpi/ic_home.png"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_timeline.png",

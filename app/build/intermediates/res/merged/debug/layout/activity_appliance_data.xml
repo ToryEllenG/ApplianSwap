@@ -30,10 +30,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="Loading Results..."
         android:textSize="20sp"
         android:textStyle="bold"
         android:id="@+id/jsonData"
+        android:autoLink="all"
         android:textColor="#000000" />
 
 </ScrollView>
