@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="762548214d42af6ef812732277ac567a6ddae8f3">
+        sha1="914975c4a59c9c81c24585d3849bdb5fbbed1917">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2e416a04f8aeb22faab302cb4702e98a67ce17aa/classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="0389ada819d8936c784d15855550bbcd52fd1b0e">
+        sha1="76c2e47d6149bdd87271bee46e659ddf0547c125">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747/classes.dex" />
     </item>
     <item

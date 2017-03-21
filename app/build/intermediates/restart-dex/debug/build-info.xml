@@ -5,40 +5,61 @@
     density="560dpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="10216692989380"
+    timestamp="13471281344249"
     token="7058460234486669854"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="346" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="50" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="9" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="5977309924254"
+        timestamp="11221750114861"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="10216692989380"
+        timestamp="13401334941150"
         verifier="COMPATIBLE" >
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/builds/debug/13401334941150/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="13433979215680"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/builds/debug/13433979215680/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="13457459380422"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/builds/debug/13457459380422/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="13471281344249"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
