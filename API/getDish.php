@@ -2,13 +2,14 @@
 
 try {
 //connect to the db with PDO with error shown if unsuccessful
-$pdo = new PDO("mysql:enpoint;port;charset=UTF8;", "username", "password");
+$pdo = new PDO("mysql:dbname="";host="";port="";charset=UTF8;", "", "");
+//if anything typed wrong, it'll throw error
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $ex) {
 		die($ex->getMessage());
 }
 //select all rows from "House" table
-$query = "SELECT * FROM House";
+$query = "SELECT * FROM appliance WHERE type='Dishwasher' ORDER BY estimated_yearly_use";
 //execute query
 $statement = $pdo->prepare($query);
 $statement->execute();
