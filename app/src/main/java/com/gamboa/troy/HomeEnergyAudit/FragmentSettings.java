@@ -56,6 +56,17 @@ public class FragmentSettings extends PreferenceFragmentCompat {
             @Override
             public boolean onPreferenceClick(Preference preference) {
                 Intent open = new Intent(getActivity(), ShowUserData.class);
+                String userID = getActivity().getIntent().getExtras().getString("userID");
+                String username = getActivity().getIntent().getExtras().getString("username");
+                String email = getActivity().getIntent().getExtras().getString("email");
+                String pass = getActivity().getIntent().getExtras().getString("password");
+
+                Bundle extras = new Bundle();
+                extras.putString("userID", userID);
+                extras.putString("username", username);
+                extras.putString("email", email);
+                extras.putString("password", pass);
+                open.putExtras(extras);
                 startActivity(open);
                 return false;
             }

@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

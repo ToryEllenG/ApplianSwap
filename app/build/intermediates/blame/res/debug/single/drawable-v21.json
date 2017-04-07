@@ -5,23 +5,23 @@
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-v21/abc_btn_colored_material.xml"
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/design_password_eye.xml"
+        "source": "/root/.android/build-cache/c2cabbf22d20857d76a0988ad360b432ecf79141/output/res/drawable-v21/design_password_eye.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-v21/notification_action_background.xml"
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/drawable-v21/abc_edit_text_material.xml"
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
@@ -33,11 +33,11 @@
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/avd_hide_password.xml"
+        "source": "/root/.android/build-cache/c2cabbf22d20857d76a0988ad360b432ecf79141/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/avd_show_password.xml"
+        "source": "/root/.android/build-cache/c2cabbf22d20857d76a0988ad360b432ecf79141/output/res/drawable-v21/avd_show_password.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
@@ -49,7 +49,7 @@
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "source": "/root/.android/build-cache/c2cabbf22d20857d76a0988ad360b432ecf79141/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
@@ -57,6 +57,6 @@
     },
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v21/preference_list_divider_material.xml",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support/preference-v14/25.1.1/res/drawable-v21/preference_list_divider_material.xml"
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/drawable-v21/preference_list_divider_material.xml"
     }
 ]

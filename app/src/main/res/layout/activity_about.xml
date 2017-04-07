@@ -14,29 +14,33 @@
         />
 
     <TextView
-        android:text="This application was developed by James Madison University ISAT Students for their Senior Capstone Project."
+        android:id="@+id/textView"
         android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
+        android:layout_weight="0.02"
+        android:text="This application was developed by James Madison University ISAT Students for their Senior Capstone Project."
+        android:textAlignment="center"
         android:textSize="20sp"
-        android:layout_weight="0.02" />
+        android:textStyle="bold" />
 
     <TextView
-        android:text="The purpose of this application is to provide a medium which allows the everyday homeowner to be presented with energy efficient alternatives to their current household appliances."
+        android:id="@+id/textView1"
         android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1"
+        android:layout_weight="0.02"
+        android:text="The purpose of this application is to provide a medium which allows the everyday homeowner to be presented with energy efficient alternatives to their current household appliances."
+        android:textAlignment="center"
         android:textSize="20sp"
-        android:layout_weight="0.02" />
+        android:textStyle="bold" />
 
 
     <ImageButton
-        android:layout_width="360dip"
-        android:layout_height="200dip"
-        android:src="@mipmap/duke_dog"
         android:id="@+id/imageView2"
+        android:layout_width="390dip"
+        android:layout_height="275dip"
         android:adjustViewBounds="true"
         android:background="@null"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:src="@mipmap/duke_dog" />
 
 </LinearLayout>

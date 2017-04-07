@@ -1,9 +1,13 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.net.ConnectivityManagerCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -40,6 +44,7 @@ public class RegisterActivity extends AppCompatActivity{
         registerToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(registerToolbar);
         getSupportActionBar().setTitle(R.string.RegisterPls);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         registerToolbar.setTitleTextColor(Color.WHITE);
 
         //Text Fields
@@ -82,7 +87,7 @@ public class RegisterActivity extends AppCompatActivity{
                                 //If no connection can be made to db
                                 else {
                                     AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                                    builder.setMessage("Register Failed!")
+                                    builder.setMessage("Username or Email Already Exists!")
                                             .setNegativeButton("Retry", null)
                                             .create()
                                             .show();
@@ -116,6 +121,12 @@ public class RegisterActivity extends AppCompatActivity{
 
         });
 
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
     @Override

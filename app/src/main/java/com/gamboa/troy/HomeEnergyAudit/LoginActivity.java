@@ -83,9 +83,17 @@ public class LoginActivity extends AppCompatActivity{
 
                             //if user is registered, go to Main Activity, and put Extra string "username" for welcome message
                             if (success){
+                                String userID = jsonResponse.getString("user_id");
                                 String username = jsonResponse.getString("username");
+                                String pass = jsonResponse.getString("password");
+                                String email = jsonResponse.getString("email");
+
+
                                 Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
+                                loginIntent.putExtra("userID", userID);
                                 loginIntent.putExtra("username", username);
+                                loginIntent.putExtra("password", pass);
+                                loginIntent.putExtra("email", email);
                                 //toast if successful login
                                 Toast loginSuccess = Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT);
                                 loginSuccess.show();

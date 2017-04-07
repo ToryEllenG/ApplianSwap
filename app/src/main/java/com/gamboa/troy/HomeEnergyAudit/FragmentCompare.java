@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,13 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.Volley;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /**
  * Created by troygbv on 2/24/17.
@@ -100,46 +108,77 @@ public class FragmentCompare extends Fragment {
 
             @Override
             public void onClick(View v) {
-
-                Intent openResults = new Intent(getActivity(), ResultsActivity.class);
                 //set Strings for all edit text fields
-                final String getDish = etDishwasher.getText().toString();
-                final String getDryer = etDryer.getText().toString();
-                final String getWasher = etWasher.getText().toString();
-                final String getFridge = etFridge.getText().toString();
-                final String stateStr = stateSpin.getSelectedItem().toString();
-                //create bundle to store all strings inputted in editText fields
-                Bundle extras = new Bundle();
-                extras.putString("getDish", getDish);
-                extras.putString("getDryer", getDryer);
-                extras.putString("getWasher", getWasher);
-                extras.putString("getFridge", getFridge);
-                extras.putString("states", stateStr);
-                //pass the bundle through the intent
-                openResults.putExtras(extras);
+                final String dishValue = etDishwasher.getText().toString();
+                final String dryerValue = etDryer.getText().toString();
+                final String washerValue = etWasher.getText().toString();
+                final String fridgeValue = etFridge.getText().toString();
+                final String state = stateSpin.getSelectedItem().toString();
+
+                //initiate listener
+
+                Response.Listener<String> responseListener = new Response.Listener<String>() {
+
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            //Call json "response" as shown in PHP API
+                            JSONObject jsonResponse = new JSONObject(response);
+                            boolean success = jsonResponse.getBoolean("success");
+                            //Open results activity
+                            if (success) {
+                                Intent openResults = new Intent(getActivity(), ResultsActivity.class);
+                                Bundle extras = new Bundle();
+                                extras.putString("getDish", dishValue);
+                                extras.putString("getDryer", dryerValue);
+                                extras.putString("getWasher", washerValue);
+                                extras.putString("getFridge", fridgeValue);
+                                extras.putString("states", state);
+                                //pass the bundle through the intent
+                                openResults.putExtras(extras);
+                                startActivity(openResults);
+
+                            }
+                            //If no connection can be made to db
+                            else {
+                                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                                builder.setMessage("Register Failed!")
+                                        .setNegativeButton("Retry", null)
+                                        .create()
+                                        .show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                };
 
                 //check user input and toast to alert
                 if(!etDishwasher.isEnabled() && !etDryer.isEnabled() && !etWasher.isEnabled() && !etFridge.isEnabled()) {
                     Toast.makeText(getActivity(), "Please select at least one appliance.", Toast.LENGTH_SHORT).show();
 
-                } else if (getDish.isEmpty() && dishwasherCheck.isChecked()) {
+                } else if (dishValue.isEmpty() && dishwasherCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Dishwasher.", Toast.LENGTH_SHORT).show();
 
-                } else if (getDryer.isEmpty() && dryerCheck.isChecked()) {
+                } else if (dryerValue.isEmpty() && dryerCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Dryer.", Toast.LENGTH_SHORT).show();
 
-                } else if (getWasher.isEmpty() && washerCheck.isChecked()) {
+                } else if (washerValue.isEmpty() && washerCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Washer.", Toast.LENGTH_SHORT).show();
 
-                } else if (getFridge.isEmpty() && fridgeCheck.isChecked()) {
+                } else if (fridgeValue.isEmpty() && fridgeCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Refrigerator.", Toast.LENGTH_SHORT).show();
                 }
-                else if (stateStr.matches("")) {
+                else if (state.matches("")) {
                     Toast.makeText(getActivity(), "Please select a state!", Toast.LENGTH_SHORT).show();
 
-                } else { //start activity if selected fields are valid
-                    startActivity(openResults);
+                } else {
+                    CompareRequest compareRequest = new CompareRequest(dishValue, dryerValue, washerValue, fridgeValue,state, responseListener);
+                    RequestQueue queue = Volley.newRequestQueue(getActivity());
+                    queue.add(compareRequest);
                 }
+
             }
         });
         return view;

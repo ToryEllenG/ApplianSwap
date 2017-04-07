@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -34,7 +33,10 @@
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ShowUserData" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ResultsActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ProfileActivity" />
+
+        <service
+            android:name="com.android.tools.fd.runtime.InstantRunService"
+            android:exported="true" />
     </application>
 
 </manifest>

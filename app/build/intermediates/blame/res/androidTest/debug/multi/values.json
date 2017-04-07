@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
+                    "file": "/root/.android/build-cache/47aa3199e65ae8ec04452a9be96f4db6df55826b/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

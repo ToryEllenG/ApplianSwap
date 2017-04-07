@@ -33,7 +33,6 @@
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ContactActivity" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ShowUserData" />
         <activity android:name="com.gamboa.troy.HomeEnergyAudit.ResultsActivity" />
-        <activity android:name="com.gamboa.troy.HomeEnergyAudit.ProfileActivity" />
     </application>
 
 </manifest>

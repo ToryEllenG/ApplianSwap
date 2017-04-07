@@ -1,13 +1,12 @@
 <component name="libraryTable">
   <library name="preference-v7-25.1.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/preference-v7/25.1.1/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/80d31991c223ddebb5356d754aca5225dc14c3b5/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/preference-v7/25.1.1/preference-v7-25.1.1-sources.jar!/" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/preference-v7/25.1.1/preference-v7-25.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
