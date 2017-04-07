@@ -15,15 +15,27 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.github.mikephil.charting.animation.Easing;
+import com.github.mikephil.charting.charts.PieChart;
+import com.github.mikephil.charting.components.Legend;
+import com.github.mikephil.charting.data.PieData;
+import com.github.mikephil.charting.data.PieDataSet;
+import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.utils.ColorTemplate;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ResultsActivity extends AppCompatActivity {
 
@@ -32,12 +44,14 @@ public class ResultsActivity extends AppCompatActivity {
     Spinner applianceChoices;
 
     //Variables for API call
-    TextView results;
-    String JsonDishURL = "http://54.147.237.12/phpAPI/getDish.php";
-    String JsonDryerURL = "http://54.147.237.12/phpAPI/getDryer.php";
-    String JsonWasherURL = "http://54.147.237.12/phpAPI/getWasher.php";
-    String JsonFridgeURL = "http://54.147.237.12/phpAPI/getFridge.php";
-    String jsonResponse = "";
+    String JsonDishURL = "http://54.147.237.12/phpAPI/getDishValues.php";
+    String JsonDryerURL = "http://54.147.237.12/phpAPI/getDryerValues.php";
+    String JsonWasherURL = "http://54.147.237.12/phpAPI/getWasherValues.php";
+    String JsonFridgeURL = "http://54.147.237.12/phpAPI/getFridgeValues.php";
+    //floats for chart
+    float valueOne, valueTwo, valueThree, valueFour, userValue;
+    //chart
+    PieChart pieChart;
     //Define Queue
     RequestQueue requestQueue;
 
@@ -59,7 +73,7 @@ public class ResultsActivity extends AppCompatActivity {
         final String bGetDryer = extras.getString("getDryer");
         final String bGetWasher = extras.getString("getWasher");
         final String bGetFridge = extras.getString("getFridge");
-        final String states = extras.getString("states");
+        String states = extras.getString("states");
 
         powerTV = (TextView)findViewById(R.id.powerTV);
         //get selected state
@@ -71,8 +85,19 @@ public class ResultsActivity extends AppCompatActivity {
 
         //Create RequestQueue through Volley
         requestQueue = Volley.newRequestQueue(this);
-        //Put results in a TextView embedded within a scrollview
-        results = (TextView) findViewById(R.id.jsonData);
+
+        //PieChart
+        pieChart = (PieChart) findViewById(R.id.pieChart);
+        pieChart.getDescription().setEnabled(true);
+        pieChart.getDescription().setText("Comparison of Appliances by estimated kWh yearly use");
+
+        //legend
+        Legend l = pieChart.getLegend();
+        l.setVerticalAlignment(Legend.LegendVerticalAlignment.TOP);
+        l.setHorizontalAlignment(Legend.LegendHorizontalAlignment.RIGHT);
+        l.setOrientation(Legend.LegendOrientation.VERTICAL);
+        l.setDrawInside(false);
+        l.setEnabled(true);
 
         //assign spinner to an adapter
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.result_arrays, android.R.layout.simple_spinner_item);
@@ -146,50 +171,54 @@ public class ResultsActivity extends AppCompatActivity {
 
     //custom methods to call json data based on appliance type
     private void fetchDishData() {
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, JsonDishURL, null,
 
-        JsonArrayRequest req = new JsonArrayRequest(JsonDishURL,
-
-                new Response.Listener<JSONArray>() {
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
                         try {
-                            jsonResponse = "";
-                            //loop through each response in the json
-                            for (int i = 0; i < response.length(); i++) {
-                                JSONObject HouseData = (JSONObject) response.get(i);
+                            JSONObject HouseData = response.getJSONObject("dishwashers");
 
-                                String make = HouseData.getString("make");
-                                String model = HouseData.getString("model");
-                                String type = HouseData.getString("type");
-                                String cost = HouseData.getString("Cost");
-                                String lifeExpectancy = HouseData.getString("life_expectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
-                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
-                                String kwhLowUse = HouseData.getString("kWh_low_use");
-                                String kwhMedUse = HouseData.getString("kWh_med_use");
-                                String kwhHighUse = HouseData.getString("kWh_high_use");
-                                String features = HouseData.getString("Features");
-                                String link = HouseData.getString("Link");
-                                //add link String when data is added to database
+                                //get Strings
+                                String dish1 = HouseData.getString("dish1");
+                                String dish2 = HouseData.getString("dish2");
+                                String dish3 = HouseData.getString("dish3");
+                                String dish4 = HouseData.getString("dish4");
+                                String userInput = getIntent().getExtras().getString("getDish");
 
-                                //provide spacing and call parsed values
-                                jsonResponse += "\n";
-                                jsonResponse += "Make: " + make + "\n\n";
-                                jsonResponse += "Model: " + model  + "\n\n";
-                                jsonResponse += "Type: " + type + "\n\n";
-                                jsonResponse += "Cost: " + cost   + "\n\n";
-                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
-                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
-                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
-                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
-                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
-                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "Additional Features: " + features + "\n\n";
-                                jsonResponse += "Link to purchase: " + link + "\n\n";
-                                jsonResponse += "----------------------------------------------" + "\n";
+                            //Call entry List
+                            List<PieEntry> entries = new ArrayList<>();
+
+                            //check if nothing was inputted in edittext
+                            if(!userInput.isEmpty()){
+                                userValue = Float.valueOf(userInput);
+                                entries.add(new PieEntry(userValue, "Your Input"));
                             }
-                            // Adds the jsonResponse string to the TextView "results"
-                            results.setText(jsonResponse);
+                                valueOne = Float.valueOf(dish1);
+                                valueTwo = Float.valueOf(dish2);
+                                valueThree = Float.valueOf(dish3);
+                                valueFour = Float.valueOf(dish4);
+
+                                entries.add(new PieEntry(valueOne, "Dishwasher 1"));
+                                entries.add(new PieEntry(valueTwo, "Dishwasher 2"));
+                                entries.add(new PieEntry(valueThree, "Dishwasher 3"));
+                                entries.add(new PieEntry(valueFour, "Dishwasher 4"));
+
+                                //data set
+                                PieDataSet set = new PieDataSet(entries, "");
+                                set.setColors(ColorTemplate.VORDIPLOM_COLORS);
+                                set.setValueTextColor(Color.BLACK);
+
+                                PieData data = new PieData(set);
+                                data.setValueTextSize(16f);
+                                data.setValueTextColor(Color.BLACK);
+                                pieChart.setCenterText("Dishwasher Comparison");
+                                pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
+                                pieChart.setData(data);
+                                pieChart.notifyDataSetChanged();
+                                pieChart.invalidate();
+
+
                         }
                         catch (JSONException e) {
                             e.printStackTrace();
@@ -203,8 +232,6 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("Volley", "Error");
-
-
             }
         }
 
@@ -213,50 +240,55 @@ public class ResultsActivity extends AppCompatActivity {
     }
 
     private void fetchDryerData() {
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, JsonDryerURL, null,
 
-        JsonArrayRequest req = new JsonArrayRequest(JsonDryerURL,
-
-                new Response.Listener<JSONArray>() {
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
                         try {
-                            jsonResponse = "";
-                            //loop through each response in the json
-                            for (int i = 0; i < response.length(); i++) {
-                                JSONObject HouseData = (JSONObject) response.get(i);
+                            JSONObject HouseData = response.getJSONObject("dryers");
 
-                                String make = HouseData.getString("make");
-                                String model = HouseData.getString("model");
-                                String type = HouseData.getString("type");
-                                String cost = HouseData.getString("Cost");
-                                String lifeExpectancy = HouseData.getString("life_expectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
-                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
-                                String kwhLowUse = HouseData.getString("kWh_low_use");
-                                String kwhMedUse = HouseData.getString("kWh_med_use");
-                                String kwhHighUse = HouseData.getString("kWh_high_use");
-                                String features = HouseData.getString("Features");
-                                String link = HouseData.getString("Link");
-                                //add link String when data is added to database
+                            //get Strings
+                            String dryer1 = HouseData.getString("dryer1");
+                            String dryer2 = HouseData.getString("dryer2");
+                            String dryer3 = HouseData.getString("dryer3");
+                            String dryer4 = HouseData.getString("dryer4");
+                            String userInput = getIntent().getExtras().getString("getDryer");
 
-                                //provide spacing and call parsed values
-                                jsonResponse += "\n";
-                                jsonResponse += "Make: " + make + "\n\n";
-                                jsonResponse += "Model: " + model  + "\n\n";
-                                jsonResponse += "Type: " + type + "\n\n";
-                                jsonResponse += "Cost: " + cost   + "\n\n";
-                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
-                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
-                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
-                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
-                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
-                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "Additional Features: " + features + "\n\n";
-                                jsonResponse += "Link to purchase: " + link + "\n\n";
-                                jsonResponse += "----------------------------------------------" + "\n";
+                            //check if nothing was inputted in edittext
+                            List<PieEntry> entries = new ArrayList<>();
+                            if(!userInput.isEmpty()){
+                                userValue = Float.valueOf(userInput);
+                                entries.add(new PieEntry(userValue, "Your Input"));
                             }
-                            // Adds the jsonResponse string to the TextView "results"
-                            results.setText(jsonResponse);
+
+                                //convert to floats for chart
+                                valueOne = Float.valueOf(dryer1);
+                                valueTwo = Float.valueOf(dryer2);
+                                valueThree = Float.valueOf(dryer3);
+                                valueFour = Float.valueOf(dryer4);
+
+                                //entries
+                                entries.add(new PieEntry(valueOne, "Dryer 1"));
+                                entries.add(new PieEntry(valueTwo, "Dryer 2"));
+                                entries.add(new PieEntry(valueThree, "Dryer 3"));
+                                entries.add(new PieEntry(valueFour, "Dryer 4"));
+
+                                //data set
+                                PieDataSet set = new PieDataSet(entries, "");
+                                set.setColors(ColorTemplate.VORDIPLOM_COLORS);
+                                set.setValueTextColor(Color.BLACK);
+
+                                PieData data = new PieData(set);
+                                data.setValueTextSize(16f);
+                                data.setValueTextColor(Color.BLACK);
+                                pieChart.setCenterText("Dryer Comparison");
+                                pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
+                                pieChart.setData(data);
+                                pieChart.notifyDataSetChanged();
+                                pieChart.invalidate();
+
+
                         }
                         catch (JSONException e) {
                             e.printStackTrace();
@@ -270,60 +302,64 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("Volley", "Error");
-
-
             }
         }
 
         );
         requestQueue.add(req);
+
     }
 
     private void fetchWasherData() {
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, JsonWasherURL, null,
 
-        JsonArrayRequest req = new JsonArrayRequest(JsonWasherURL,
-
-                new Response.Listener<JSONArray>() {
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
                         try {
-                            jsonResponse = "";
-                            //loop through each response in the json
-                            for (int i = 0; i < response.length(); i++) {
-                                JSONObject HouseData = (JSONObject) response.get(i);
+                            JSONObject HouseData = response.getJSONObject("washers");
 
-                                String make = HouseData.getString("make");
-                                String model = HouseData.getString("model");
-                                String type = HouseData.getString("type");
-                                String cost = HouseData.getString("Cost");
-                                String lifeExpectancy = HouseData.getString("life_expectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
-                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
-                                String kwhLowUse = HouseData.getString("kWh_low_use");
-                                String kwhMedUse = HouseData.getString("kWh_med_use");
-                                String kwhHighUse = HouseData.getString("kWh_high_use");
-                                String features = HouseData.getString("Features");
-                                String link = HouseData.getString("Link");
-                                //add link String when data is added to database
+                            //get Strings
+                            String washer1 = HouseData.getString("washer1");
+                            String washer2 = HouseData.getString("washer2");
+                            String washer3 = HouseData.getString("washer3");
+                            String washer4 = HouseData.getString("washer4");
+                            String userInput = getIntent().getExtras().getString("getWasher");
 
-                                //provide spacing and call parsed values
-                                jsonResponse += "\n";
-                                jsonResponse += "Make: " + make + "\n\n";
-                                jsonResponse += "Model: " + model  + "\n\n";
-                                jsonResponse += "Type: " + type + "\n\n";
-                                jsonResponse += "Cost: " + cost   + "\n\n";
-                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
-                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
-                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
-                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
-                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
-                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "Additional Features: " + features + "\n\n";
-                                jsonResponse += "Link to purchase: " + link + "\n\n";
-                                jsonResponse += "----------------------------------------------" + "\n";
+                            //check if nothing was inputted in edittext
+                            List<PieEntry> entries = new ArrayList<>();
+
+                            if(!userInput.isEmpty()){
+                                userValue = Float.valueOf(userInput);
+                                entries.add(new PieEntry(userValue, "Your Input"));
                             }
-                            // Adds the jsonResponse string to the TextView "results"
-                            results.setText(jsonResponse);
+                                //convert to floats for chart
+                                valueOne = Float.valueOf(washer1);
+                                valueTwo = Float.valueOf(washer2);
+                                valueThree = Float.valueOf(washer3);
+                                valueFour = Float.valueOf(washer4);
+
+                                //entries
+                                entries.add(new PieEntry(valueOne, "Washer 1"));
+                                entries.add(new PieEntry(valueTwo, "Washer 2"));
+                                entries.add(new PieEntry(valueThree, "Washer 3"));
+                                entries.add(new PieEntry(valueFour, "Washer 4"));
+
+                                //data set
+                                PieDataSet set = new PieDataSet(entries, "");
+                                set.setColors(ColorTemplate.VORDIPLOM_COLORS);
+                                set.setValueTextColor(Color.BLACK);
+
+                                PieData data = new PieData(set);
+                                data.setValueTextSize(16f);
+                                data.setValueTextColor(Color.BLACK);
+                                pieChart.setCenterText("Washer Comparison");
+                                pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
+                                pieChart.setData(data);
+                                pieChart.notifyDataSetChanged();
+                                pieChart.invalidate();
+
+
                         }
                         catch (JSONException e) {
                             e.printStackTrace();
@@ -337,8 +373,6 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("Volley", "Error");
-
-
             }
         }
 
@@ -347,50 +381,54 @@ public class ResultsActivity extends AppCompatActivity {
     }
 
     private void fetchFridgeData() {
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, JsonFridgeURL, null,
 
-        JsonArrayRequest req = new JsonArrayRequest(JsonFridgeURL,
-
-                new Response.Listener<JSONArray>() {
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
                         try {
-                            jsonResponse = "";
-                            //loop through each response in the json
-                            for (int i = 0; i < response.length(); i++) {
-                                JSONObject HouseData = (JSONObject) response.get(i);
+                            JSONObject HouseData = response.getJSONObject("fridges");
 
-                                String make = HouseData.getString("make");
-                                String model = HouseData.getString("model");
-                                String type = HouseData.getString("type");
-                                String cost = HouseData.getString("Cost");
-                                String lifeExpectancy = HouseData.getString("life_expectancy");
-                                String estimatedYearlyUse = HouseData.getString("estimated_yearly_use");
-                                String estimatedYearlyCost = HouseData.getString("estimated_yearly_cost");
-                                String kwhLowUse = HouseData.getString("kWh_low_use");
-                                String kwhMedUse = HouseData.getString("kWh_med_use");
-                                String kwhHighUse = HouseData.getString("kWh_high_use");
-                                String features = HouseData.getString("Features");
-                                String link = HouseData.getString("Link");
-                                //add link String when data is added to database
+                            //get Strings
+                            String fridge1 = HouseData.getString("fridge1");
+                            String fridge2 = HouseData.getString("fridge2");
+                            String fridge3 = HouseData.getString("fridge3");
+                            String fridge4 = HouseData.getString("fridge4");
+                            String userInput = getIntent().getExtras().getString("getFridge");
 
-                                //provide spacing and call parsed values
-                                jsonResponse += "\n";
-                                jsonResponse += "Make: " + make + "\n\n";
-                                jsonResponse += "Model: " + model  + "\n\n";
-                                jsonResponse += "Type: " + type + "\n\n";
-                                jsonResponse += "Cost: " + cost   + "\n\n";
-                                jsonResponse += "Life Expectancy: " + lifeExpectancy   + "\n\n";
-                                jsonResponse += "Estimated Yearly Use (Kwh): " + estimatedYearlyUse   + "\n\n";
-                                jsonResponse += "Estimated Yearly Cost: " + estimatedYearlyCost   + "\n\n";
-                                jsonResponse += "KwH Low Use: " + kwhLowUse   + "\n\n";
-                                jsonResponse += "KwH Med Use: " + kwhMedUse   + "\n\n";
-                                jsonResponse += "KwH High Use: " + kwhHighUse   + "\n\n";
-                                jsonResponse += "Additional Features: " + features + "\n\n";
-                                jsonResponse += "Link to purchase: " + link + "\n\n";
-                                jsonResponse += "----------------------------------------------" + "\n";
+                            //check if nothing was inputted in edittext and call list
+                            List<PieEntry> entries = new ArrayList<>();
+
+                            if(!userInput.isEmpty()){
+                                userValue = Float.valueOf(userInput);
+                                entries.add(new PieEntry(userValue, "Your Input"));
                             }
-                            // Adds the jsonResponse string to the TextView "results"
-                            results.setText(jsonResponse);
+                                //convert to floats for chart
+                                valueOne = Float.valueOf(fridge1);
+                                valueTwo = Float.valueOf(fridge2);
+                                valueThree = Float.valueOf(fridge3);
+                                valueFour = Float.valueOf(fridge4);
+
+                                //entries
+                                entries.add(new PieEntry(valueOne, "Fridge 1"));
+                                entries.add(new PieEntry(valueTwo, "Fridge 2"));
+                                entries.add(new PieEntry(valueThree, "Fridge 3"));
+                                entries.add(new PieEntry(valueFour, "Fridge 4"));
+
+                                //data set
+                                PieDataSet set = new PieDataSet(entries, "");
+                                set.setColors(ColorTemplate.VORDIPLOM_COLORS);
+                                set.setValueTextColor(Color.BLACK);
+
+                                PieData data = new PieData(set);
+                                data.setValueTextSize(16f);
+                                data.setValueTextColor(Color.BLACK);
+                                pieChart.setCenterText("Refrigerator Comparison");
+                                pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
+                                pieChart.setData(data);
+                                pieChart.notifyDataSetChanged();
+                                pieChart.invalidate();
+
                         }
                         catch (JSONException e) {
                             e.printStackTrace();
@@ -404,12 +442,11 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("Volley", "Error");
-
-
             }
         }
 
         );
         requestQueue.add(req);
+
     }
 }

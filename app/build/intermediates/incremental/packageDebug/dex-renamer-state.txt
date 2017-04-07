@@ -1,7 +1,4 @@
-#Thu Apr 06 20:10:21 EDT 2017
-base.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e416a04f8aeb22faab302cb4702e98a67ce17aa
-renamed.1=classes2.dex
+#Fri Apr 07 12:52:15 EDT 2017
+base.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747/classes.dex
-base.1=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747
-file.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e416a04f8aeb22faab302cb4702e98a67ce17aa/classes.dex
+file.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

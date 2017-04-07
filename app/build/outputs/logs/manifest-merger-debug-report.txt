@@ -61,9 +61,9 @@ ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xm
 	android:name
 		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:16:25-77
 category#android.intent.category.LAUNCHER
-ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:18:13-73
 	android:name
-		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:18:23-70
 activity#com.gamboa.troy.HomeEnergyAudit.MainActivity
 ADDED from /root/AndroidStudioProjects/EnergyApp/app/src/main/AndroidManifest.xml:21:9-50
 	android:name

@@ -59,9 +59,12 @@ public class FragmentCompare extends Fragment {
         etFridge = (EditText) view.findViewById(R.id.fridgeET);
 
         //set default values for edit texts to be disabled
-        etDishwasher.setEnabled(false);
+        etDishwasher.setEnabled(false); //check these to false to be disabled by default
+
         etDryer.setEnabled(false);
+
         etWasher.setEnabled(false);
+
         etFridge.setEnabled(false);
 
         //spinner and view button

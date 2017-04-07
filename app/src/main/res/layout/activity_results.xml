@@ -18,7 +18,7 @@
 
 
     <TextView
-        android:text="Alternative Results:"
+        android:text="Comparison Results:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -112,30 +112,15 @@
         android:layout_alignRight="@+id/stateTestView"
         android:layout_alignEnd="@+id/stateTestView" />
 
-    <ScrollView
-        android:id="@+id/activity_house_swipe_refresh_layout"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView12"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+   <com.github.mikephil.charting.charts.PieChart
+       android:layout_width="380dip"
+       android:layout_height="390dip"
+       android:layout_alignParentBottom="true"
+       android:layout_below="@+id/textView12"
+       android:layout_centerInParent="true"
+       android:id="@+id/pieChart"
+       />
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Loading Results..."
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:id="@+id/jsonData"
-            android:textColor="#000000"
-            android:autoLink="all"
-            />
-
-    </ScrollView>
 
 
 </RelativeLayout>

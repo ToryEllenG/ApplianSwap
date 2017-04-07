@@ -1,4 +1,4 @@
-#Thu Apr 06 20:10:21 EDT 2017
+#Fri Apr 07 12:49:40 EDT 2017
 base.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
 renamed.0=classes.dex
 file.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex

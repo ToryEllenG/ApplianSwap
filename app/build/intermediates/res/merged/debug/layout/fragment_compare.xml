@@ -44,28 +44,32 @@
             android:layout_alignParentStart="true" />
 
         <EditText
+            android:id="@+id/dryerET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/dryerET"
             android:layout_alignBaseline="@+id/dryerCheckBox"
             android:layout_alignBottom="@+id/dryerCheckBox"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:editable="false"/>
+            android:layout_alignParentRight="true"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
 
         <EditText
+            android:id="@+id/washerET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/washerET"
             android:layout_alignBaseline="@+id/washerCheckBox"
             android:layout_alignBottom="@+id/washerCheckBox"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:editable="false"/>
+            android:layout_alignParentRight="true"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
 
         <CheckBox
             android:text="Dryer"
@@ -140,16 +144,18 @@
             android:layout_marginStart="10dp" />
 
         <EditText
+            android:id="@+id/fridgeET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/fridgeET"
-            android:layout_marginTop="18dp"
-            android:layout_below="@+id/washerET"
-            android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:editable="false"/>
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/washerET"
+            android:layout_marginTop="18dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
 
         <CheckBox
             android:text="Refrigerator"
@@ -162,15 +168,17 @@
             android:layout_alignParentStart="true" />
 
         <EditText
+            android:id="@+id/dishwasherET"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
-            android:id="@+id/dishwasherET"
             android:layout_alignBottom="@+id/dishwasherCheckBox"
             android:layout_alignLeft="@+id/dryerET"
             android:layout_alignStart="@+id/dryerET"
-            android:editable="false">
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center">
 
         </EditText>
 
