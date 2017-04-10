@@ -40,14 +40,13 @@
             android:id="@+id/jsonData"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
             android:autoLink="all"
             android:text="Loading Results..."
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true" />
+            android:textSize="20sp" />
 
 
     </ScrollView>

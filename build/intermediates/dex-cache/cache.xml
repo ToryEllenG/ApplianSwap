@@ -30,66 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/root/.android/build-cache/c715e250c9768e6584219aa94fea533c8d40da6a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_a85b78a05571fa578059bfdf9fd7bda01ac075f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/b0a8b2bba681aca8e2324c94c1aad82ac41b0942/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_af6eae47d12a38b6539596706f52a2fb6f608aed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/f14a2fcc1212bbd4c987290e663c0abd12272a84/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_bea647107b749e12c4fb9da7cabfc3e1a48d5bcd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_ac342f17260710fcdf4b2d129687098a64b8d47c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_7a6134ddc9b109d53e5eb36c6a01475764deb5c0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/root/.android/build-cache/a0be9f25cab35ac11e9355edda7362b07feddee5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_f73c96ff6bf8d08e2b8b95ead257900153415bf9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/root/.android/build-cache/6256fbee72658c4d7b963243b4e11651ef138b0f/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_757384a4fadec5174c8f8a5d9632a5a7fa53f2e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/c715e250c9768e6584219aa94fea533c8d40da6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_a85b78a05571fa578059bfdf9fd7bda01ac075f4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,12 +75,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/root/.android/build-cache/b0a8b2bba681aca8e2324c94c1aad82ac41b0942/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_af6eae47d12a38b6539596706f52a2fb6f608aed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/f14a2fcc1212bbd4c987290e663c0abd12272a84/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_bea647107b749e12c4fb9da7cabfc3e1a48d5bcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/root/.android/build-cache/3d431935eb89ba5b9c3e391a924c46babe6e3029/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_8faf796e79ef6a6d590ffe2f5fd5d2e85e3cf916.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e416a04f8aeb22faab302cb4702e98a67ce17aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47e38cbc49a5003f945b28d50cfb648941c42bb8">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/glide-3.7.0_ac342f17260710fcdf4b2d129687098a64b8d47c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,12 +147,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_7a6134ddc9b109d53e5eb36c6a01475764deb5c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/root/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_76f81077aea9bd1699aabfb9818dc8fa3bde44df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/root/.android/build-cache/a0be9f25cab35ac11e9355edda7362b07feddee5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_f73c96ff6bf8d08e2b8b95ead257900153415bf9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,6 +198,15 @@
         revision="25.0.2"
         sha1="082eaf5a8bebe68f147526f16ae3a3e1b40e391e">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_50e58a84cc85e185a3c503ec291a0cda54c3d532.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/AndroidStudioProjects/EnergyApp/app/libs/GenAsync.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_771da1ae7b9d76e635eb5eb9960281813c66481d/classes.dex" />
     </item>
 
 </items>

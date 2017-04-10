@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,6 +55,7 @@ public class ResultsActivity extends AppCompatActivity {
     PieChart pieChart;
     //Define Queue
     RequestQueue requestQueue;
+    Button viewAll;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,8 +90,7 @@ public class ResultsActivity extends AppCompatActivity {
 
         //PieChart
         pieChart = (PieChart) findViewById(R.id.pieChart);
-        pieChart.getDescription().setEnabled(true);
-        pieChart.getDescription().setText("Comparison of Appliances by estimated kWh yearly use");
+        pieChart.getDescription().setEnabled(false);
 
         //legend
         Legend l = pieChart.getLegend();
@@ -98,6 +99,16 @@ public class ResultsActivity extends AppCompatActivity {
         l.setOrientation(Legend.LegendOrientation.VERTICAL);
         l.setDrawInside(false);
         l.setEnabled(true);
+
+        //button to view all
+        viewAll = (Button)findViewById(R.id.viewAllBT); //temporary button to view all appliances
+        viewAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent viewAll = new Intent(ResultsActivity.this, ApplianceActivity.class);
+                startActivity(viewAll);
+            }
+        });
 
         //assign spinner to an adapter
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.result_arrays, android.R.layout.simple_spinner_item);
@@ -212,7 +223,7 @@ public class ResultsActivity extends AppCompatActivity {
                                 PieData data = new PieData(set);
                                 data.setValueTextSize(16f);
                                 data.setValueTextColor(Color.BLACK);
-                                pieChart.setCenterText("Dishwasher Comparison");
+                                pieChart.setCenterText("Dishwashers Compared by Estimated Yearly kWh use");
                                 pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
                                 pieChart.setData(data);
                                 pieChart.notifyDataSetChanged();
@@ -282,7 +293,7 @@ public class ResultsActivity extends AppCompatActivity {
                                 PieData data = new PieData(set);
                                 data.setValueTextSize(16f);
                                 data.setValueTextColor(Color.BLACK);
-                                pieChart.setCenterText("Dryer Comparison");
+                                pieChart.setCenterText("Dryers Compared by Estimated Yearly kWh use");
                                 pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
                                 pieChart.setData(data);
                                 pieChart.notifyDataSetChanged();
@@ -353,7 +364,7 @@ public class ResultsActivity extends AppCompatActivity {
                                 PieData data = new PieData(set);
                                 data.setValueTextSize(16f);
                                 data.setValueTextColor(Color.BLACK);
-                                pieChart.setCenterText("Washer Comparison");
+                                pieChart.setCenterText("Washers Compared by Estimated Yearly kWh use");
                                 pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
                                 pieChart.setData(data);
                                 pieChart.notifyDataSetChanged();
@@ -423,7 +434,7 @@ public class ResultsActivity extends AppCompatActivity {
                                 PieData data = new PieData(set);
                                 data.setValueTextSize(16f);
                                 data.setValueTextColor(Color.BLACK);
-                                pieChart.setCenterText("Refrigerator Comparison");
+                                pieChart.setCenterText("Refrigerators Compared by Estimated Yearly kWh use");
                                 pieChart.animateY(2000, Easing.EasingOption.EaseInOutQuad);
                                 pieChart.setData(data);
                                 pieChart.notifyDataSetChanged();

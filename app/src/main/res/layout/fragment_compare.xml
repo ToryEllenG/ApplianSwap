@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:clickable="true"
             app:fabSize="normal"
-            app:srcCompat="@drawable/ic_wb_incandescent"
+            app:srcCompat="@drawable/ic_lightbulb_outline"
             android:layout_marginRight="24dp"
             android:layout_marginEnd="24dp"
             android:id="@+id/fabCompare"

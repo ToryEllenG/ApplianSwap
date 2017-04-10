@@ -34,5 +34,9 @@
     {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_toc.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_toc.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_lightbulb_outline.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_lightbulb_outline.png"
     }
 ]

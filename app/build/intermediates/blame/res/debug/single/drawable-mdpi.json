@@ -28,6 +28,10 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-mdpi/ic_person_black_24dp.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_lightbulb_outline.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-mdpi/ic_lightbulb_outline.png"
+    },
+    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_email.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-mdpi/ic_email.png"
     },
