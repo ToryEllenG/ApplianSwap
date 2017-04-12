@@ -101,24 +101,6 @@
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_8faf796e79ef6a6d590ffe2f5fd5d2e85e3cf916.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e416a04f8aeb22faab302cb4702e98a67ce17aa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47e38cbc49a5003f945b28d50cfb648941c42bb8">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_07e6aac3782232b7108f73a334a9a9263c13d747/classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="/root/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
         jumboMode="false"
@@ -198,15 +180,6 @@
         revision="25.0.2"
         sha1="082eaf5a8bebe68f147526f16ae3a3e1b40e391e">
         <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/classes_50e58a84cc85e185a3c503ec291a0cda54c3d532.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/root/AndroidStudioProjects/EnergyApp/app/libs/GenAsync.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
-        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/GenAsync_771da1ae7b9d76e635eb5eb9960281813c66481d/classes.dex" />
     </item>
 
 </items>

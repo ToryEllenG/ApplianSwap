@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Home Energy Audit</string>
+    <string name="app_name">ApplianSwap</string>
     <string name="welcometv">Welcome!</string>
     <string name="seeGraph">Monitor your energy Usage!</string>
     <string name="graphTest">Current Total Household Usage</string>

@@ -111,5 +111,18 @@
         android:layout_alignStart="@+id/ETusername"
         android:id="@+id/imageView4" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ApplianSwap!"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/ETusername"
+        android:layout_alignRight="@+id/ETusername"
+        android:layout_alignEnd="@+id/ETusername"
+        android:layout_marginBottom="55dp" />
+
 
 </RelativeLayout>

@@ -179,8 +179,6 @@ public class ResultsActivity extends AppCompatActivity {
 
     }
 
-
-    //custom methods to call json data based on appliance type
     private void fetchDishData() {
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, JsonDishURL, null,
 
