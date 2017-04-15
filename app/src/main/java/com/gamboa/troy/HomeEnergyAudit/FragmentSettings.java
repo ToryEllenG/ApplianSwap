@@ -27,7 +27,7 @@ public class FragmentSettings extends PreferenceFragmentCompat {
         //variables for settings entities
         Preference openAbout = findPreference("keyAbout");
         Preference openContact = findPreference("keyContact");
-        Preference openHouseRegister = findPreference("openHouseRegister");
+        Preference openAppliances = findPreference("openAppliances");
         Preference openUser = findPreference("openUser");
         Preference logout = findPreference("keyLogout");
 
@@ -73,7 +73,7 @@ public class FragmentSettings extends PreferenceFragmentCompat {
         });
 
         //preference intent to ViewAppliance Activity. Make new activity and change this later
-        openHouseRegister.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+       openAppliances.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
                 Intent open = new Intent(getActivity(), ApplianceActivity.class);

@@ -14,13 +14,13 @@
         <Preference
             android:title="Appliances"
             android:summary="See all available appliances."
-            android:key="openHouseRegister"
+            android:key="openAppliances"
             >
         </Preference>
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
         android:title="General Settings">
         <Preference
             android:title="Energy Consumption Statements"
@@ -30,7 +30,7 @@
 
 
     </PreferenceCategory>
-
+-->
     <PreferenceCategory
         android:title="Misc / Support">
 

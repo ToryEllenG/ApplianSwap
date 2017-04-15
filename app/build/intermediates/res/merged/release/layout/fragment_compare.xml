@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gamboa.troy.HomeEnergyAudit.FragmentCompare">
+
+    <RelativeLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.julianhermes.energy_audit_application.MainActivity"
+        tools:showIn="@layout/activity_main"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <CheckBox
+            android:text="Dishwasher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dishwasherCheckBox"
+
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/selectApplianceTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:text="Washer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/washerCheckBox"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/dryerET"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/dryerET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/dryerCheckBox"
+            android:layout_alignBottom="@+id/dryerCheckBox"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/washerET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/washerCheckBox"
+            android:layout_alignBottom="@+id/washerCheckBox"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:text="Dryer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dryerCheckBox"
+
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/dishwasherCheckBox"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Select Location:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/locationTextView"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/fridgeET"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Select Appliances:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:textColor="@android:color/black"
+            tools:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/selectApplianceTextView"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_lightbulb_outline"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/fabCompare"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/stateSpinner"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateSpinner"
+            android:entries="@array/states_array"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/locationTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="State:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/stateSpinner"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <EditText
+            android:id="@+id/fridgeET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/washerET"
+            android:layout_marginTop="18dp"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <CheckBox
+            android:text="Refrigerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fridgeCheckBox"
+
+            android:layout_alignTop="@+id/fridgeET"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/dishwasherET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dishwasherCheckBox"
+            android:layout_alignLeft="@+id/dryerET"
+            android:layout_alignStart="@+id/dryerET"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <TextView
+            android:text=" Average Power (kWh):"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/powerTextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignBaseline="@+id/selectApplianceTextView"
+            android:layout_alignBottom="@+id/selectApplianceTextView"
+            android:layout_alignLeft="@+id/stateSpinner"
+            android:layout_alignStart="@+id/stateSpinner" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

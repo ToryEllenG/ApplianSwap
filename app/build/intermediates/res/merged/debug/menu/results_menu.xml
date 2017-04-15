@@ -5,11 +5,11 @@
     tools:context=".ResultsActivity">
 
 
-    <item android:id="@+id/action_seeOthers"
+  <!--  <item android:id="@+id/action_seeOthers"
         android:title="Past Comparisons"
         android:orderInCategory="100"
         app:showAsAction="never"/>
-
+-->
     <item android:id="@+id/action_logout"
         android:title="@string/logout"
         android:orderInCategory="101"

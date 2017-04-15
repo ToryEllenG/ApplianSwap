@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.gamboa.troy.HomeEnergyAudit.ResultsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+       />
+
+
+    <TextView
+        android:text="Comparison Results:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView12"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:id="@+id/choicesSP"
+        android:entries="@array/result_arrays"
+        android:layout_width="150dp"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="14dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="51dp"
+        android:id="@+id/view"
+        android:layout_below="@+id/powerTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </View>
+
+    <TextView
+        android:text="Power (kWh):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textSize="18sp"
+        android:layout_below="@+id/yourEntries"
+        android:layout_alignLeft="@+id/yourEntries"
+        android:layout_alignStart="@+id/yourEntries"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="State/region:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateTV"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginBottom="13dp" />
+
+    <TextView
+        android:text="Your Results:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourEntries"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_alignBottom="@+id/choicesSP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="stateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateTestView"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/stateTV"
+        android:layout_alignBottom="@+id/stateTV"
+        android:layout_alignRight="@+id/choicesSP"
+        android:layout_alignEnd="@+id/choicesSP"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:text="PowerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/powerTV"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignRight="@+id/stateTestView"
+        android:layout_alignEnd="@+id/stateTestView" />
+
+   <com.github.mikephil.charting.charts.PieChart
+       android:layout_width="390dip"
+       android:layout_height="385dip"
+       android:layout_below="@+id/textView12"
+       android:layout_centerInParent="true"
+       android:id="@+id/pieChart"
+       />
+
+    <Button
+        android:id="@+id/viewAllBT"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pieChart"
+        android:layout_centerHorizontal="true"
+        android:text="Click Here to View All Appliances!" />
+
+
+</RelativeLayout>

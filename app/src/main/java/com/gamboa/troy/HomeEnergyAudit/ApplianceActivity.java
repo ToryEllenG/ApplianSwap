@@ -109,6 +109,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 JSONObject HouseData = (JSONObject) response.get(i);
 
                                 String make = HouseData.getString("make");
+                                String id = HouseData.getString("ID");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
                                 String cost = HouseData.getString("Cost");
@@ -125,6 +126,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
                                 jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Name: " + id + "\n\n";
                                 jsonResponse += "Model: " + model  + "\n\n";
                                 jsonResponse += "Type: " + type + "\n\n";
                                 jsonResponse += "Cost: " + cost   + "\n\n";
@@ -176,6 +178,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 JSONObject HouseData = (JSONObject) response.get(i);
 
                                 String make = HouseData.getString("make");
+                                String id = HouseData.getString("ID");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
                                 String cost = HouseData.getString("Cost");
@@ -192,6 +195,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
                                 jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Name: " + id + "\n\n";
                                 jsonResponse += "Model: " + model  + "\n\n";
                                 jsonResponse += "Type: " + type + "\n\n";
                                 jsonResponse += "Cost: " + cost   + "\n\n";
@@ -243,6 +247,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 JSONObject HouseData = (JSONObject) response.get(i);
 
                                 String make = HouseData.getString("make");
+                                String id = HouseData.getString("ID");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
                                 String cost = HouseData.getString("Cost");
@@ -259,6 +264,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
                                 jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Name: " + id + "\n\n";
                                 jsonResponse += "Model: " + model  + "\n\n";
                                 jsonResponse += "Type: " + type + "\n\n";
                                 jsonResponse += "Cost: " + cost   + "\n\n";
@@ -310,6 +316,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 JSONObject HouseData = (JSONObject) response.get(i);
 
                                 String make = HouseData.getString("make");
+                                String id = HouseData.getString("ID");
                                 String model = HouseData.getString("model");
                                 String type = HouseData.getString("type");
                                 String cost = HouseData.getString("Cost");
@@ -326,6 +333,7 @@ public class ApplianceActivity extends AppCompatActivity {
                                 //provide spacing and call parsed values
                                 jsonResponse += "\n";
                                 jsonResponse += "Make: " + make + "\n\n";
+                                jsonResponse += "Name: " + id + "\n\n";
                                 jsonResponse += "Model: " + model  + "\n\n";
                                 jsonResponse += "Type: " + type + "\n\n";
                                 jsonResponse += "Cost: " + cost   + "\n\n";

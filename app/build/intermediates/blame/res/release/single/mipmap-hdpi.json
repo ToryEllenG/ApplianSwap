@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/release/mipmap-hdpi/duke_dog.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/duke_dog.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/release/mipmap-hdpi/ic_launcher.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
