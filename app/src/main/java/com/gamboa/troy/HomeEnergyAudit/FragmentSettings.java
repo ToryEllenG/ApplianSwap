@@ -53,7 +53,7 @@ public class FragmentSettings extends PreferenceFragmentCompat {
             }
         });
 
-        //preference intent for User Activity. Make new activity and change this later
+        //preference intent for User Activity.
         openUser.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {

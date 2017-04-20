@@ -205,8 +205,8 @@ public class FragmentCompare extends Fragment {
 
                 } else if (fridgeValue.isEmpty() && fridgeCheck.isChecked()) {
                     Toast.makeText(getActivity(), "Please enter a valid value for Refrigerator.", Toast.LENGTH_SHORT).show();
-                }
-                else if (state.matches("")) {
+
+                } else if (state.matches("")) {
                     Toast.makeText(getActivity(), "Please select a state!", Toast.LENGTH_SHORT).show();
 
                 } else {
