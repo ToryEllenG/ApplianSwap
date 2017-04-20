@@ -17,12 +17,13 @@
     <PreferenceCategory
         android:title="General Settings">
 
- <Preference
+        <Preference
             android:title="Appliances"
             android:summary="See all available appliances."
             android:key="openAppliances"
             >
         </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
