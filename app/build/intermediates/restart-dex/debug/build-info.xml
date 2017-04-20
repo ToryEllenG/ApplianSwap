@@ -2,30 +2,33 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492707585576"
+    timestamp="1492708277901"
     token="-3789149738973946547"
-    verifier="COMPATIBLE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="727" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="250" />
     <task
         name="verifier"
-        duration="0" />
+        duration="21" />
 
     <artifact
-        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -70,7 +73,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492706254367"
+        timestamp="1492708141466"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1492708277901"
         verifier="CLASS_ADDED" >
         <artifact
             location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
@@ -78,38 +89,6 @@
         <artifact
             location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1492706349202"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492706349202/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1492706390552"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492706390552/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1492707559303"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492707559303/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1492707585576"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>

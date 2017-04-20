@@ -1,7 +1,9 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -172,7 +174,23 @@ public class ResultsActivity extends AppCompatActivity {
 
             //logout button
             case R.id.action_logout:
-                startActivity(new Intent(ResultsActivity.this, LoginActivity.class));
+                //Alert Dialog to make sure user wants to log out
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                builder.setMessage("Are you sure you want to logout?")
+                        .setNegativeButton("No", null)
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent open = new Intent(ResultsActivity.this, LoginActivity.class);
+                                Toast logoutSuccess = Toast.makeText(ResultsActivity.this, "Logout successful!", Toast.LENGTH_SHORT);
+                                logoutSuccess.show();
+                                startActivity(open);
+
+                            }
+                        });
+                builder.create();
+                builder.show();
         }
 
         return super.onOptionsItemSelected(item);
