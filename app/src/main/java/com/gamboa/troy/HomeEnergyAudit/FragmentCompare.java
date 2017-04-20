@@ -1,6 +1,7 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -9,7 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -58,14 +59,46 @@ public class FragmentCompare extends Fragment {
         etWasher = (EditText) view.findViewById(R.id.washerET);
         etFridge = (EditText) view.findViewById(R.id.fridgeET);
 
-        //set default values for edit texts to be disabled
-        etDishwasher.setEnabled(false); //check these to false to be disabled by default
+        //set default values for edit texts to be disabled & have keyboard disappear when user clicks outside of field
+        etDishwasher.setEnabled(false);
+        etDishwasher.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
 
         etDryer.setEnabled(false);
+        etDryer.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
 
         etWasher.setEnabled(false);
+        etWasher.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
 
         etFridge.setEnabled(false);
+        etFridge.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
 
         //spinner and view button
         stateSpin = (Spinner) view.findViewById(R.id.stateSpinner);
@@ -186,6 +219,13 @@ public class FragmentCompare extends Fragment {
         });
         return view;
     }
+
+    //method to hide keyboard
+    public void hideKeyboard(View view) {
+        InputMethodManager inputMethodManager =(InputMethodManager)getActivity().getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    }
+
 
     @Override
     public void onResume() {

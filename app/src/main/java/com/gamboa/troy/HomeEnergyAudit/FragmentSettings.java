@@ -1,6 +1,8 @@
 package com.gamboa.troy.HomeEnergyAudit;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.LayoutInflater;
@@ -86,8 +88,24 @@ public class FragmentSettings extends PreferenceFragmentCompat {
         logout.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(Preference preference) {
-                Intent open = new Intent(getActivity(), LoginActivity.class);
-                startActivity(open);
+
+                //Alert Dialog to make sure user wants to log out
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+                builder.setMessage("Are you sure you want to log out?")
+                        .setNegativeButton("No", null)
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent open = new Intent(getActivity(), LoginActivity.class);
+                                startActivity(open);
+
+                            }
+                            });
+                        builder.create();
+                        builder.show();
+
+
                 return false;
             }
         });

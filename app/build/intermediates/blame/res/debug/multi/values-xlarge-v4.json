@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+        "outputFile": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 121
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 192
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 262
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 332
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 468
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

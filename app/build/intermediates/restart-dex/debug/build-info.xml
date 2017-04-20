@@ -2,104 +2,98 @@
 <instant-run
     abi="x86"
     api-level="23"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="560dpi"
     format="10"
-    plugin-version="2.3.0"
-    timestamp="1491836926147"
-    token="7058460234486669854"
-    verifier="FULL_BUILD_REQUESTED" >
+    plugin-version="2.3.1"
+    timestamp="1492706390552"
+    token="-3789149738973946547"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="261" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="7" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="17" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1491836926147"
+        timestamp="1492700690986"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/root/AndroidStudioProjects/EnergyApp/app/build/outputs/apk/app-debug.apk"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1492706254367"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1492706349202"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492706349202/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1492706390552"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

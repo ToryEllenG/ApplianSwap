@@ -15,9 +15,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="366dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.02"
         android:text="This application was developed by James Madison University ISAT Students for their Senior Capstone Project."
         android:textAlignment="center"
         android:textSize="20sp"
@@ -25,13 +24,11 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="366dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.02"
         android:text="The purpose of this application is to provide a medium which allows the everyday homeowner to be presented with energy efficient alternatives to their current household appliances."
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="20sp" />
 
 
     <ImageButton

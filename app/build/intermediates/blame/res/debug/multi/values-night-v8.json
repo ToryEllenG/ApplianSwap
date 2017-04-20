@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+        "outputFile": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 288
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 486
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 588
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 682
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/values-night-v8/values-night-v8.xml",
+                    "file": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/values-night-v8/values-night-v8.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,

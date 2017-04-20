@@ -1,4 +1,4 @@
-#Fri Apr 07 14:12:57 EDT 2017
-base.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
+#Thu Apr 20 11:05:17 EDT 2017
+base.0=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
 renamed.0=classes.dex
-file.0=/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
+file.0=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex

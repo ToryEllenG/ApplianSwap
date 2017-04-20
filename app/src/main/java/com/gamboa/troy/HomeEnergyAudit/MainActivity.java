@@ -1,5 +1,6 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -7,6 +8,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -14,7 +16,7 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 import android.support.v4.app.Fragment;
-
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -106,7 +108,24 @@ public class MainActivity extends AppCompatActivity {
 
             //logout button
             case R.id.action_logout:
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                //Alert Dialog to make sure user wants to log out
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                builder.setMessage("Are you sure you want to logout?")
+                        .setNegativeButton("No", null)
+                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent open = new Intent(MainActivity.this, LoginActivity.class);
+                                Toast logoutSuccess = Toast.makeText(MainActivity.this, "Logouttest successful!", Toast.LENGTH_SHORT);
+                                logoutSuccess.show();
+                                startActivity(open);
+
+                            }
+                        });
+                builder.create();
+                builder.show();
+                return false;
 
              //back button
             case android.R.id.home:
