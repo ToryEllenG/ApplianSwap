@@ -4,12 +4,32 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
@@ -24,8 +44,28 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
@@ -34,6 +74,10 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v23/abc_tint_default.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",

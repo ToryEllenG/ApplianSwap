@@ -1,15 +1,15 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/preference_list_divider_material.xml",
         "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/drawable-v21/preference_list_divider_material.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/drawable-v21/avd_hide_password.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_share.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
@@ -20,28 +20,92 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_share.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_camera.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/drawable-v21/avd_show_password.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/preference_list_divider_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/drawable-v21/preference_list_divider_material.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_share.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_send.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
@@ -50,10 +114,6 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/drawable-v21/avd_show_password.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-v21/ic_menu_manage.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",

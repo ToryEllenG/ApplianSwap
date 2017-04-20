@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_email.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_email.png"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_timeline.png"
     },
@@ -8,8 +12,32 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_wb_incandescent.png"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_lightbulb_outline.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_lightbulb_outline.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_assessment.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_assessment.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_toc.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_toc.png"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_wb_incandescent.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_wb_incandescent.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_settings.png"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_lightbulb_outline.png",
@@ -28,8 +56,16 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_email.png"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_applications.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_settings_applications.png"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_person_black_24dp.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_person_black_24dp.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_person_black_24dp.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_person_black_24dp.png"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_assessment.png",
@@ -38,5 +74,9 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_toc.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_toc.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_timeline.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_timeline.png"
     }
 ]

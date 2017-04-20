@@ -4,6 +4,78 @@
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_snackbar_out.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_snackbar_in.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_fab_in.xml"
     },
@@ -16,12 +88,8 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_fade_in.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
@@ -36,16 +104,12 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
@@ -56,8 +120,8 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",

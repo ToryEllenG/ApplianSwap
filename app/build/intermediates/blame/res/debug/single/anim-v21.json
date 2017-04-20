@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",

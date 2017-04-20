@@ -1,7 +1,4 @@
-#Thu Apr 20 13:09:03 EDT 2017
-base.0=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36e6bfc973ae6c4ec391a10879b8b64d272d869f
-renamed.1=classes2.dex
+#Thu Apr 20 15:42:26 EDT 2017
+base.0=/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_beda60fe8cc0a16fc7c2d03fb2112cbc1d0442ed/classes.dex
-base.1=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_beda60fe8cc0a16fc7c2d03fb2112cbc1d0442ed
-file.0=/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_36e6bfc973ae6c4ec391a10879b8b64d272d869f/classes.dex
+file.0=/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

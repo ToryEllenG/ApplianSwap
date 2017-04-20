@@ -11,26 +11,20 @@
             >
         </Preference>
 
-        <Preference
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="General Settings">
+
+ <Preference
             android:title="Appliances"
             android:summary="See all available appliances."
             android:key="openAppliances"
             >
         </Preference>
-
     </PreferenceCategory>
 
-<!--    <PreferenceCategory
-        android:title="General Settings">
-        <Preference
-            android:title="Energy Consumption Statements"
-            android:summary="View your past comparison statements."
-            >
-        </Preference>
-
-
-    </PreferenceCategory>
--->
     <PreferenceCategory
         android:title="Misc / Support">
 

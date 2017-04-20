@@ -2,5 +2,9 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/xcituser/.android/build-cache/6831b105b0a1ddcb0e46241c8852107e379466ec/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

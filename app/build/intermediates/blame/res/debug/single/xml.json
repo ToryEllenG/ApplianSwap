@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/xml/preferences.xml"
     }

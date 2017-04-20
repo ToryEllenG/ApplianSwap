@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/debug/jniLibs"/></dataSet></merger>

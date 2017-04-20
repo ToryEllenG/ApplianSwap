@@ -92,7 +92,7 @@ public class FragmentSettings extends PreferenceFragmentCompat {
                 //Alert Dialog to make sure user wants to log out
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-                builder.setMessage("Are you sure you want to log out?")
+                builder.setMessage("Are you sure you want to logout?")
                         .setNegativeButton("No", null)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override

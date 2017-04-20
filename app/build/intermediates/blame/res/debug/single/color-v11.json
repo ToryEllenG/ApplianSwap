@@ -4,6 +4,14 @@
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/admin3022/.android/build-cache/e71947039e542cb718909839f9c5486d107272ff/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
