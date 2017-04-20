@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Intent open = new Intent(MainActivity.this, LoginActivity.class);
-                                Toast logoutSuccess = Toast.makeText(MainActivity.this, "Logouttest successful!", Toast.LENGTH_SHORT);
+                                Toast logoutSuccess = Toast.makeText(MainActivity.this, "Logout successful!", Toast.LENGTH_SHORT);
                                 logoutSuccess.show();
                                 startActivity(open);
 

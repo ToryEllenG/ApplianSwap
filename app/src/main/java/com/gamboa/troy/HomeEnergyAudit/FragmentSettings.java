@@ -8,7 +8,7 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.Toast;
 
 
 /**
@@ -98,8 +98,9 @@ public class FragmentSettings extends PreferenceFragmentCompat {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 Intent open = new Intent(getActivity(), LoginActivity.class);
+                                Toast logoutSuccess = Toast.makeText(getActivity(), "Logout successful!", Toast.LENGTH_SHORT);
+                                logoutSuccess.show();
                                 startActivity(open);
-
                             }
                             });
                         builder.create();

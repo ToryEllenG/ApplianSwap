@@ -117,7 +117,7 @@ public class LoginActivity extends AppCompatActivity{
                                 loginIntent.putExtra("password", pass);
                                 loginIntent.putExtra("email", email);
                                 //toast if successful login
-                                Toast loginSuccess = Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT);
+                                Toast loginSuccess = Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT);
                                 loginSuccess.show();
                                 startActivity(loginIntent);
                             }

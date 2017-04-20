@@ -494,17 +494,17 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="419">
-              <caret line="119" column="38" selection-start-line="119" selection-start-column="32" selection-end-line="120" selection-end-column="52" />
+              <caret line="119" column="106" selection-start-line="119" selection-start-column="106" selection-end-line="119" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="119" column="99" selection-start-line="119" selection-start-column="99" selection-end-line="119" selection-end-column="99" />
+            <state relative-caret-position="336">
+              <caret line="119" column="95" selection-start-line="119" selection-start-column="95" selection-end-line="119" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -527,14 +527,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentSettings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FragmentSettings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/FragmentSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="92" column="18" selection-start-line="91" selection-start-column="16" selection-end-line="108" selection-end-column="29" />
+            <state relative-caret-position="500">
+              <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
               <folding>
-                <element signature="e#3559#4537#0" expanded="true" />
-                <element signature="e#4536#4537#0" expanded="true" />
+                <element signature="e#3587#4745#0" expanded="true" />
+                <element signature="e#4055#4605#0" expanded="true" />
+                <element signature="e#4604#4605#0" expanded="true" />
+                <element signature="e#4744#4745#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2382,7 +2384,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/results_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/ContactActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_user_data.xml" />
@@ -2390,8 +2391,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/ShowUserData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/FragmentCompare.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/FragmentSettings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/FragmentSettings.java" />
       </list>
     </option>
   </component>
@@ -2920,6 +2922,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14475138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find Sample Code" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925835" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925835" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2936,7 +2940,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3365,6 +3368,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="119" column="106" selection-start-line="119" selection-start-column="106" selection-end-line="119" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="119" column="95" selection-start-line="119" selection-start-column="95" selection-end-line="119" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/ShowUserData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -3382,28 +3401,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/FragmentSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="92" column="18" selection-start-line="91" selection-start-column="16" selection-end-line="108" selection-end-column="29" />
+        <state relative-caret-position="500">
+          <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
           <folding>
-            <element signature="e#3559#4537#0" expanded="true" />
-            <element signature="e#4536#4537#0" expanded="true" />
+            <element signature="e#3587#4745#0" expanded="true" />
+            <element signature="e#4055#4605#0" expanded="true" />
+            <element signature="e#4604#4605#0" expanded="true" />
+            <element signature="e#4744#4745#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="32" selection-end-line="120" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/gamboa/troy/HomeEnergyAudit/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="119" column="99" selection-start-line="119" selection-start-column="99" selection-end-line="119" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
