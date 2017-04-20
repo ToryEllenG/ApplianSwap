@@ -6,26 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492706390552"
+    timestamp="1492707585576"
     token="-3789149738973946547"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="261" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="7" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="17" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         build-mode="FULL"
@@ -92,8 +92,24 @@
         timestamp="1492706390552"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492706390552/classes.dex"
             type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1492707559303"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/builds/debug/1492707559303/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1492707585576"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
