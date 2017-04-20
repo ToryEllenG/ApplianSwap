@@ -22,8 +22,15 @@ public class ContactActivity extends AppCompatActivity {
         //custom Contact toolbar
         contactToolBar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(contactToolBar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Contact Information");
         contactToolBar.setTitleTextColor(Color.WHITE);
 
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

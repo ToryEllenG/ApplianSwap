@@ -1,5 +1,7 @@
 package com.gamboa.troy.HomeEnergyAudit;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -8,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,15 +37,34 @@ public class LoginActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
         //custom login toolbar
         loginToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(loginToolbar);
         getSupportActionBar().setTitle(getString(R.string.please_login));
         loginToolbar.setTitleTextColor(Color.WHITE);
 
-        //editTexts
+        //editTexts (set the keyboard to go away when user touches outside of keyboard)
          etUsername = (EditText) findViewById(R.id.ETusername);
          etPassword = (EditText) findViewById(R.id.ETpassword);
+
+        etUsername.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
+
+        etPassword.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) {
+                    hideKeyboard(v);
+                }
+            }
+        });
 
         //Buttons
          btnLogin = (Button) findViewById(R.id.BTsubmit);
@@ -123,6 +145,13 @@ public class LoginActivity extends AppCompatActivity{
         });
 
 
+    }
+
+
+//method to hide keyboard
+    public void hideKeyboard(View view) {
+        InputMethodManager inputMethodManager =(InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
     @Override

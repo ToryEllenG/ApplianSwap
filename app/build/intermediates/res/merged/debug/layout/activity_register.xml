@@ -2,7 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
 
 
     <ImageView
@@ -37,7 +40,8 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/ETconfirm"
-        android:textAlignment="textStart"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/ETemail"
         android:layout_alignStart="@+id/ETemail"
@@ -48,8 +52,9 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
         android:id="@+id/ETpassword"
-        android:textAlignment="textStart"
         android:layout_above="@+id/confirmTV"
         android:layout_alignLeft="@+id/ETconfirm"
         android:layout_alignStart="@+id/ETconfirm" />
@@ -69,7 +74,8 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/ETusername"
-        android:textAlignment="textStart"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
         android:layout_above="@+id/passwordTV"
         android:layout_alignLeft="@+id/ETpassword"
         android:layout_alignStart="@+id/ETpassword"
@@ -133,7 +139,8 @@
         android:ems="10"
         android:id="@+id/ETemail"
         android:hint="email@email.com"
-        android:textAlignment="textStart"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
         android:layout_below="@+id/emailTV"
         android:layout_centerHorizontal="true" />
 
