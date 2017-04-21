@@ -8,12 +8,12 @@
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-mdpi/ic_settings_applications.png"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_wb_incandescent.png",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_wb_incandescent.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-mdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_wb_incandescent.png",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-mdpi/ic_wb_incandescent.png"
     },
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_home.png",

@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/libs/GenAsync.jar"
+        jar="/root/AndroidStudioProjects/EnergyApp/app/libs/GenAsync.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6a58a869c275f3424cffb0c266d1d1c1518e38e7">
-        <dex dex="/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/pre-dexed/debug/GenAsync_4a7d409e14bb6a6ce3c917e3bc6eb9ca2ec73062.jar" />
+        <dex dex="/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/pre-dexed/debug/GenAsync_771da1ae7b9d76e635eb5eb9960281813c66481d.jar" />
     </item>
 
 </items>

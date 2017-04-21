@@ -24,12 +24,12 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-hdpi/ic_wb_incandescent.png"
     },
     {
-        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-hdpi/logout.png",
-        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-hdpi/logout.png"
-    },
-    {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_wb_incandescent.png",
         "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-hdpi/ic_wb_incandescent.png"
+    },
+    {
+        "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-hdpi/logout.png",
+        "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/drawable-hdpi/logout.png"
     },
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_assessment.png",

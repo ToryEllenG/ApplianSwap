@@ -4,12 +4,12 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_toc.png"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings_applications.png",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_settings_applications.png"
-    },
-    {
         "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",
         "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings_applications.png",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_settings_applications.png"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_assessment.png",
@@ -32,20 +32,20 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_settings.png"
     },
     {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_lightbulb_outline.png",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_lightbulb_outline.png"
-    },
-    {
-        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",
-        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_home.png"
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_settings.png"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_wb_incandescent.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_wb_incandescent.png"
     },
     {
-        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_settings.png",
-        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/drawable-xhdpi/ic_settings.png"
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_lightbulb_outline.png",
+        "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/drawable-xhdpi/ic_lightbulb_outline.png"
     },
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_home.png",

@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="165dip"
         android:layout_above="@+id/ETusername"
-        android:src="@drawable/BannerTrans"
+        android:src="@drawable/banner"
         />
 
     <Button
