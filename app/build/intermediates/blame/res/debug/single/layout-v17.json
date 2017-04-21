@@ -4,6 +4,10 @@
         "source": "/Users/xcituser/.android/build-cache/ba7a168f9729e9113a239b8891ef14d6a604f5e5/output/res/layout-v17/preference_material.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v17/preference_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_material.xml"
+    },
+    {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-v17/preference_widget_seekbar_material.xml",
         "source": "/Users/admin3022/.android/build-cache/cd7761a94de1156ffa2472457a9d910b7f68db0a/output/res/layout-v17/preference_widget_seekbar_material.xml"
     },
@@ -12,8 +16,20 @@
         "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout-v17/preference_information_material.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v17/preference_dropdown_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v17/preference_information_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_information_material.xml"
+    },
+    {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-v17/preference_material.xml",
         "source": "/Users/admin3022/.android/build-cache/fb01436855e179d97a1e602c85e6453e06866187/output/res/layout-v17/preference_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v17/preference_category_material.xml",
+        "source": "/root/.android/build-cache/2235a743a0d534166047c79b43aab58107d3ae5b/output/res/layout-v17/preference_category_material.xml"
     },
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-v17/preference_category_material.xml",
@@ -38,5 +54,9 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-v17/preference_widget_seekbar_material.xml",
         "source": "/Users/xcituser/.android/build-cache/e845284418dbde19547651a2de4efe9d0ecca743/output/res/layout-v17/preference_widget_seekbar_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v17/preference_widget_seekbar_material.xml",
+        "source": "/root/.android/build-cache/dec67511409cca956d4b8e0cb4b4bc8bd4557fca/output/res/layout-v17/preference_widget_seekbar_material.xml"
     }
 ]

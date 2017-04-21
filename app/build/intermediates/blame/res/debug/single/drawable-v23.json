@@ -6,5 +6,9 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

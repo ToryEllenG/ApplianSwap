@@ -17,6 +17,13 @@
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="165dip"
+        android:layout_above="@+id/ETusername"
+        android:src="@drawable/BannerTrans"
+        />
+
     <Button
         android:text="About"
         android:layout_width="wrap_content"
@@ -53,19 +60,7 @@
         android:layout_alignLeft="@+id/BTregister"
         android:layout_alignStart="@+id/BTregister" />
 
-    <!-- put logo here
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/logoShow"
-        android:src="@drawable/splashlogologin" //change resource
-        android:layout_marginBottom="20dp"
-        android:layout_above="@+id/ETusername"
-        android:layout_alignRight="@+id/btAbout"
-        android:layout_alignEnd="@+id/btAbout"
-        android:layout_marginRight="14dp"
-        android:layout_marginEnd="14dp" />
-        -->
+
 
     <EditText
         android:layout_height="wrap_content"
@@ -112,19 +107,6 @@
         android:layout_alignLeft="@+id/ETusername"
         android:layout_alignStart="@+id/ETusername"
         android:id="@+id/imageView4" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ApplianSwap!"
-        android:textAlignment="center"
-        android:textSize="40sp"
-        android:textStyle="bold|italic"
-        android:layout_above="@+id/ETusername"
-        android:layout_alignRight="@+id/ETusername"
-        android:layout_alignEnd="@+id/ETusername"
-        android:layout_marginBottom="55dp" />
 
 
 </RelativeLayout>

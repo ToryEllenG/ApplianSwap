@@ -4,6 +4,10 @@
         "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/mipmap-xhdpi/duke_dog.png"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
         "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/mipmap-xhdpi/duke_dog.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi/duke_dog.png",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/mipmap-xhdpi/duke_dog.png"
     }
 ]

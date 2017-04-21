@@ -6,5 +6,9 @@
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
         "source": "/Users/admin3022/.android/build-cache/e1beedd7cc7105347a4338ac917cbaa0aeb38c11/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/root/.android/build-cache/c2cabbf22d20857d76a0988ad360b432ecf79141/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }
 ]

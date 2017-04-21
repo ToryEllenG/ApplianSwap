@@ -6,5 +6,9 @@
     {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/xcituser/.android/build-cache/e88a4c713b6056a76b498380470bc1ad59eaac5e/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/14f4371cd75d06417077c3fe535ba05a05aa73dd/output/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

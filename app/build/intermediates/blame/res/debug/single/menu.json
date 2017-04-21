@@ -4,6 +4,10 @@
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/menu/main_menu.xml"
     },
     {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/menu/results_menu.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/menu/results_menu.xml"
+    },
+    {
         "merged": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/menu/results_menu.xml",
         "source": "/Users/xcituser/Desktop/AndroidProjects/EnergyAuditApplication/app/src/main/res/menu/results_menu.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/build/intermediates/res/merged/debug/menu/results_menu.xml",
         "source": "/Users/admin3022/AndroidStudioProjects/EnergyAuditApplication/app/src/main/res/menu/results_menu.xml"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/EnergyApp/app/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/root/AndroidStudioProjects/EnergyApp/app/src/main/res/menu/main_menu.xml"
     }
 ]
