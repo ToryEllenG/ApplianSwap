@@ -7,7 +7,7 @@ The purpose of this application is to provide a medium which allows the everyday
 
 **Team members:**  
 
-Troy Gamboa  
+Tory Gamboa  
 Julian Hermes  
 Jake Hagen  
 Bryan Potter  
